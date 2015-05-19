@@ -1,7 +1,7 @@
 using System;
 using Xunit.Abstractions;
 
-namespace Perform.EvaluationRating.Tests.Infrastructure
+namespace BDD.Framework.Infrastructure
 {
     [Serializable]
     public class NullOptions : ITestFrameworkExecutionOptions, ITestFrameworkDiscoveryOptions

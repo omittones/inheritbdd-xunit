@@ -8,7 +8,7 @@ using Xunit.Abstractions;
 using Xunit.Sdk;
 using TestMethodDisplay = Xunit.Sdk.TestMethodDisplay;
 
-namespace Perform.EvaluationRating.Tests.Infrastructure
+namespace BDD.Framework.Infrastructure
 {
     public class CustomDiscoverer : XunitTestFrameworkDiscoverer
     {

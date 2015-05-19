@@ -2,7 +2,7 @@ using System.Reflection;
 using Xunit.Abstractions;
 using Xunit.Sdk;
 
-namespace Perform.EvaluationRating.Tests.Infrastructure
+namespace BDD.Framework.Infrastructure
 {
     public class CustomExecutor : XunitTestFrameworkExecutor
     {

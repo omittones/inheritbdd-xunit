@@ -4,7 +4,7 @@ using Xunit;
 using Xunit.Abstractions;
 using Xunit.Sdk;
 
-namespace Perform.EvaluationRating.Tests.Infrastructure
+namespace BDD.Framework.Infrastructure
 {
     public class CustomFramework : XunitTestFramework
     {

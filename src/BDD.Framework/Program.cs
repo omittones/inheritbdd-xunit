@@ -1,12 +1,12 @@
 ﻿using System.Reflection;
 using System.Text;
-using Perform.EvaluationRating.Tests.Infrastructure;
+using BDD.Framework.Infrastructure;
 using Xunit;
 using Xunit.Sdk;
 
 [assembly: TestFramework("Perform.EvaluationRating.Tests.Infrastructure.CustomFramework", "Perform.EvaluationRating.Tests")]
 
-namespace Perform.EvaluationRating.Tests
+namespace BDD.Framework
 {
     public static class Program
     {
