@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6A16E6AB-1E10-4ED3-BFC2-13AE6BF2CF79}</ProjectGuid>
+    <ProjectGuid>{59CE2E23-44EB-4B5C-8F55-752910B4EC6B}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BDD.Framework</RootNamespace>
-    <AssemblyName>BDD.Framework</AssemblyName>
+    <RootNamespace>BDD.Debugger</RootNamespace>
+    <AssemblyName>BDD.Debugger</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,9 +31,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>BDD.Framework.Program</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -44,34 +41,37 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Infrastructure\ConsoleOutputVisitor.cs" />
-    <Compile Include="Infrastructure\CustomDiscoverer.cs" />
-    <Compile Include="Infrastructure\CustomExecutor.cs" />
-    <Compile Include="Infrastructure\CustomFramework.cs" />
-    <Compile Include="Infrastructure\NullOptions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\libs\xunit\src\xunit.abstractions.net35\xunit.abstractions.net35.csproj">
-      <Project>{53012549-d81b-4e40-b626-67c19265aa6f}</Project>
-      <Name>xunit.abstractions.net35</Name>
+    <None Include="App.config" />
+    <None Include="vstest.console.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\libs\visualstudio.xunit\xunit.runner.visualstudio.testadapter\xunit.runner.visualstudio.testadapter.csproj">
+      <Project>{ebab9937-2a6a-41ea-848b-3f7ede2396cb}</Project>
+      <Name>xunit.runner.visualstudio.testadapter</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\libs\xunit\src\xunit.core\xunit.core.csproj">
-      <Project>{1b843c0f-8e08-4ba9-8c85-eeaf779a0774}</Project>
-      <Name>xunit.core</Name>
+    <ProjectReference Include="..\..\libs\xunit\src\xunit.abstractions.pcl\xunit.abstractions.pcl.csproj">
+      <Project>{77743589-F177-4007-97B8-50B82A1C7044}</Project>
+      <Name>xunit.abstractions.pcl</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\libs\xunit\src\xunit.execution.desktop\xunit.execution.desktop.csproj">
-      <Project>{09ef9917-4b00-4646-8c3f-96efacc8bf51}</Project>
+      <Project>{09EF9917-4B00-4646-8C3F-96EFACC8BF51}</Project>
       <Name>xunit.execution.desktop</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\libs\xunit\src\xunit.runner.utility.desktop\xunit.runner.utility.desktop.csproj">
-      <Project>{efc3f529-3686-416b-9c67-36ec914c776a}</Project>
+      <Project>{EFC3F529-3686-416B-9C67-36EC914C776A}</Project>
       <Name>xunit.runner.utility.desktop</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BDD.Framework\BDD.Framework.csproj">
+      <Project>{6a16e6ab-1e10-4ed3-bfc2-13ae6bf2cf79}</Project>
+      <Name>BDD.Framework</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>

@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xunit.runner.utility.deskto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xunit.runner.visualstudio.testadapter", "..\libs\visualstudio.xunit\xunit.runner.visualstudio.testadapter\xunit.runner.visualstudio.testadapter.csproj", "{EBAB9937-2A6A-41EA-848B-3F7EDE2396CB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BDD.Debugger", "BDD.Debugger\BDD.Debugger.csproj", "{59CE2E23-44EB-4B5C-8F55-752910B4EC6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{EBAB9937-2A6A-41EA-848B-3F7EDE2396CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBAB9937-2A6A-41EA-848B-3F7EDE2396CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBAB9937-2A6A-41EA-848B-3F7EDE2396CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59CE2E23-44EB-4B5C-8F55-752910B4EC6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59CE2E23-44EB-4B5C-8F55-752910B4EC6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59CE2E23-44EB-4B5C-8F55-752910B4EC6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59CE2E23-44EB-4B5C-8F55-752910B4EC6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
