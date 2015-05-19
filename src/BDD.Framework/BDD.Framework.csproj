@@ -50,7 +50,9 @@
     <Compile Include="Infrastructure\CustomDiscoverer.cs" />
     <Compile Include="Infrastructure\CustomExecutor.cs" />
     <Compile Include="Infrastructure\CustomFramework.cs" />
+    <Compile Include="Infrastructure\ExtendedFact.cs" />
     <Compile Include="Infrastructure\NullOptions.cs" />
+    <Compile Include="Infrastructure\ExtendedTheory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

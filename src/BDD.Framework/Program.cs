@@ -13,18 +13,7 @@ namespace BDD.Framework
         public static int Main(string[] args)
         {
             var logger = new ConsoleOutputVisitor();
-            var assembly = new ReflectionAssemblyInfo(Assembly.GetExecutingAssembly());
-
-            //var proxy = new TestFrameworkProxy(
-            //    assembly,
-            //    new NullSourceInformationProvider(),
-            //    logger);
-
-            //var executor = proxy.GetExecutor(assembly.Assembly.GetName());
-
-            //executor.RunAll(logger,
-            //    new NullOptions(),
-            //    new NullOptions());
+            var assembly = new ReflectionAssemblyInfo(typeof (Program).Assembly);
 
             XunitFrontController controller = new XunitFrontController(assembly.AssemblyPath, shadowCopy: true);
             controller.RunAll(logger, new NullOptions(), new NullOptions());
