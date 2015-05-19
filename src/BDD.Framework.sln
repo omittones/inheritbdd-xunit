@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xunit.runner.visualstudio.t
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BDD.Debugger", "BDD.Debugger\BDD.Debugger.csproj", "{59CE2E23-44EB-4B5C-8F55-752910B4EC6B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xunit.assert", "..\libs\xunit\src\xunit.assert\xunit.assert.csproj", "{80B04AFE-4331-4CDD-B247-864AC6482F7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{59CE2E23-44EB-4B5C-8F55-752910B4EC6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59CE2E23-44EB-4B5C-8F55-752910B4EC6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59CE2E23-44EB-4B5C-8F55-752910B4EC6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80B04AFE-4331-4CDD-B247-864AC6482F7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80B04AFE-4331-4CDD-B247-864AC6482F7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80B04AFE-4331-4CDD-B247-864AC6482F7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80B04AFE-4331-4CDD-B247-864AC6482F7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -68,5 +74,6 @@ Global
 		{53012549-D81B-4E40-B626-67C19265AA6F} = {F9D9FBAB-D360-4D1F-8E12-6016E1490A77}
 		{EFC3F529-3686-416B-9C67-36EC914C776A} = {F9D9FBAB-D360-4D1F-8E12-6016E1490A77}
 		{EBAB9937-2A6A-41EA-848B-3F7EDE2396CB} = {F9D9FBAB-D360-4D1F-8E12-6016E1490A77}
+		{80B04AFE-4331-4CDD-B247-864AC6482F7C} = {F9D9FBAB-D360-4D1F-8E12-6016E1490A77}
 	EndGlobalSection
 EndGlobal

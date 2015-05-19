@@ -44,6 +44,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Given_another.cs" />
+    <Compile Include="Given_one.cs" />
     <Compile Include="Infrastructure\ConsoleOutputVisitor.cs" />
     <Compile Include="Infrastructure\CustomDiscoverer.cs" />
     <Compile Include="Infrastructure\CustomExecutor.cs" />
@@ -56,6 +58,10 @@
     <ProjectReference Include="..\..\libs\xunit\src\xunit.abstractions.net35\xunit.abstractions.net35.csproj">
       <Project>{53012549-d81b-4e40-b626-67c19265aa6f}</Project>
       <Name>xunit.abstractions.net35</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\libs\xunit\src\xunit.assert\xunit.assert.csproj">
+      <Project>{80b04afe-4331-4cdd-b247-864ac6482f7c}</Project>
+      <Name>xunit.assert</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\libs\xunit\src\xunit.core\xunit.core.csproj">
       <Project>{1b843c0f-8e08-4ba9-8c85-eeaf779a0774}</Project>

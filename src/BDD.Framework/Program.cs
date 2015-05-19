@@ -4,7 +4,7 @@ using BDD.Framework.Infrastructure;
 using Xunit;
 using Xunit.Sdk;
 
-[assembly: TestFramework("Perform.EvaluationRating.Tests.Infrastructure.CustomFramework", "Perform.EvaluationRating.Tests")]
+[assembly: TestFramework("BDD.Framework.Infrastructure.CustomFramework", "BDD.Framework")]
 
 namespace BDD.Framework
 {
