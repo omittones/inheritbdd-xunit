@@ -1,0 +1,6 @@
+[submodule "libs/xunit"]
+	path = libs/xunit
+	url = git@github.com:xunit/xunit.git
+[submodule "libs/visualstudio.xunit"]
+	path = libs/visualstudio.xunit
+	url = git@github.com:xunit/visualstudio.xunit.git
