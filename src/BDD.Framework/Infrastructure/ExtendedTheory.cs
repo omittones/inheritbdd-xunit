@@ -16,6 +16,7 @@ namespace BDD.Framework.Infrastructure
             TestMethodDisplay.ClassAndMethod,
             inner.TestMethod)
         {
+            this.TestMethodArguments = inner.TestMethodArguments;
         }
 
         protected override void Initialize()

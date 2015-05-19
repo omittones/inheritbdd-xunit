@@ -40,7 +40,7 @@ namespace BDD.Framework.Infrastructure
             var args = testCase.TestMethodArguments;
             if (args != null && args.Any())
             {
-                name = method.Method.GetDisplayNameWithArguments(testCase.DisplayName, args, genericTypes);
+                name = method.Method.GetDisplayNameWithArguments(name, args, genericTypes);
             }
 
             return name;
