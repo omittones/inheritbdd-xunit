@@ -8,40 +8,52 @@ namespace BDD.Framework.Infrastructure
 {
     public class CustomDiscoverer : XunitTestFrameworkDiscoverer
     {
+        private HashSet<string> tests;
+
         public CustomDiscoverer(IAssemblyInfo assemblyInfo,
             ISourceInformationProvider sourceProvider,
             IMessageSink diagnosticMessageSink,
             IXunitTestCollectionFactory collectionFactory = null) : base(assemblyInfo, sourceProvider, diagnosticMessageSink, collectionFactory)
         {
+            tests = new HashSet<string>();
         }
 
+        protected virtual void ReportTestCaseOnce(IXunitTestCase test, bool includeSourceInformation, IMessageBus messageBus)
+        {
+            if (!tests.Contains(test.UniqueID))
+            {
+                tests.Add(test.UniqueID);
+                ReportDiscoveredTestCase(test, includeSourceInformation, messageBus);    
+            }
+        }
+        
         protected override bool FindTestsForMethod(ITestMethod testMethod,
             bool includeSourceInformation,
             IMessageBus messageBus,
             ITestFrameworkDiscoveryOptions discoveryOptions)
         {
-            var factDiscoverer = new FactDiscoverer(this.DiagnosticMessageSink);
-            var theoryDiscoverer = new TheoryDiscoverer(this.DiagnosticMessageSink);
-
+            var factDiscoverer = new ExtendedDiscoverer(new FactDiscoverer(this.DiagnosticMessageSink))
+            {
+                DiagnosticMessageSink = this.DiagnosticMessageSink
+            };
+            var theoryDiscoverer = new ExtendedDiscoverer(new TheoryDiscoverer(this.DiagnosticMessageSink))
+            {
+                DiagnosticMessageSink = this.DiagnosticMessageSink
+            };
+            
             var theory = testMethod.Method.GetCustomAttributes(typeof (TheoryAttribute)).FirstOrDefault();
             if (theory != null)
             {
-                foreach (var testCase in theoryDiscoverer.Discover(discoveryOptions, testMethod, theory))
-                {
-                    var wrapped = new ExtendedTheory(this.DiagnosticMessageSink, testCase);
-                    ReportDiscoveredTestCase(wrapped, includeSourceInformation, messageBus);
-                }
+                foreach (var test in theoryDiscoverer.Discover(discoveryOptions, testMethod, theory))
+                    ReportTestCaseOnce(test, includeSourceInformation, messageBus);
             }
             else
             {
                 var fact = testMethod.Method.GetCustomAttributes(typeof (FactAttribute)).FirstOrDefault();
                 if (fact != null)
                 {
-                    foreach (var testCase in factDiscoverer.Discover(discoveryOptions, testMethod, fact))
-                    {
-                        var wrapped = new ExtendedFact(this.DiagnosticMessageSink, testCase);
-                        ReportDiscoveredTestCase(wrapped, includeSourceInformation, messageBus);
-                    }
+                    foreach (var test in factDiscoverer.Discover(discoveryOptions, testMethod, fact))
+                        ReportTestCaseOnce(test, includeSourceInformation, messageBus);
                 }
             }
 

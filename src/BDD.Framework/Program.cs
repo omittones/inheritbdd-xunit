@@ -15,9 +15,12 @@ namespace BDD.Framework
             var logger = new ConsoleOutputVisitor();
             var assembly = new ReflectionAssemblyInfo(typeof (Program).Assembly);
 
-            XunitFrontController controller = new XunitFrontController(assembly.AssemblyPath, shadowCopy: true);
-            controller.RunAll(logger, new NullOptions(), new NullOptions());
+            XunitFrontController controller = new XunitFrontController(assembly.AssemblyPath, shadowCopy: false);
 
+            controller.Find(false, logger, new NullOptions());
+
+            controller.RunAll(logger, new NullOptions(), new NullOptions());
+            
             return 0;
         }
     }

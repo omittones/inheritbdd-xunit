@@ -6,22 +6,56 @@ namespace BDD.Framework.Infrastructure
 {
     public class ConsoleOutputVisitor : TestMessageVisitor
     {
-        protected override bool Visit(IDiagnosticMessage diagnosticMessage)
+        private readonly object @lock;
+        private int identationLevel;
+
+        public ConsoleOutputVisitor()
         {
-            Console.WriteLine(diagnosticMessage.Message);
-            return true;
+            @lock = new object();
+            identationLevel = 0;
         }
 
-        protected override bool Visit(IErrorMessage error)
+        private void OutputLine(string msg)
         {
-            foreach (var msg in error.Messages)
+            lock (@lock)
+            {
+                Console.Write(new string(' ', identationLevel * 4));
                 Console.WriteLine(msg);
-            return true;
+            }
         }
+
+        //protected override bool Visit(ITestClassStarting testClassStarting)
+        //{
+        //    OutputLine(testClassStarting.TestClass.Class.Name);
+        //    identationLevel++;
+        //    return true;
+        //}
+
+        //protected override bool Visit(ITestClassFinished testClassFinished)
+        //{
+        //    identationLevel--;
+        //    return base.Visit(testClassFinished);
+        //}
+
+        //protected override bool Visit(IDiagnosticMessage diagnosticMessage)
+        //{
+        //    OutputLine(diagnosticMessage.Message);
+        //    return true;
+        //}
+
+        //protected override bool Visit(IErrorMessage error)
+        //{
+        //    foreach (var msg in error.Messages)
+        //        OutputLine(msg);
+        //    return true;
+        //}
 
         protected override bool Visit(ITestFinished testFinished)
         {
-            Console.WriteLine(testFinished.Test.DisplayName);
+            var name = testFinished.Test.DisplayName;
+            
+            OutputLine(name);
+
             return true;
         }
     }

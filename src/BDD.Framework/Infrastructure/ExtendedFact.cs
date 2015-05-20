@@ -24,23 +24,25 @@ namespace BDD.Framework.Infrastructure
         {
             base.Initialize();
 
-            this.DisplayName = TransformName(this, this.MethodGenericTypes);
+            this.DisplayName = TransformName(this.TestMethod, this.TestMethodArguments, this.MethodGenericTypes);
         }
 
-        public static string TransformName(IXunitTestCase testCase, ITypeInfo[] genericTypes)
+        public static string TransformName(
+            ITestMethod method,
+            object[] methodArgs,
+            ITypeInfo[] genericTypes)
         {
-            var prefix = testCase.TestMethod.TestClass.Class.Name;
+            var prefix = method.TestClass.Class.Name;
             prefix = (prefix ?? "").Split('.').Last();
-            var postfix = testCase.TestMethod.Method.Name
+            var postfix = method.Method.Name
                 .ToLower();
 
             var name = String.Format("{0} {1}", prefix, postfix).Replace('_', ' ');
 
-            var method = testCase.TestMethod;
-            var args = testCase.TestMethodArguments;
-            if (args != null && args.Any())
+            if (methodArgs != null && methodArgs.Any())
             {
-                name = method.Method.GetDisplayNameWithArguments(name, args, genericTypes);
+                postfix = method.Method.GetDisplayNameWithArguments("", methodArgs, genericTypes);
+                name += " " + postfix;
             }
 
             return name;

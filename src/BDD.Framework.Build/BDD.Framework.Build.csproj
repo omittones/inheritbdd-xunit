@@ -75,11 +75,11 @@
     <Compile Include="..\BDD.Framework\Infrastructure\CustomFramework.cs">
       <Link>Infrastructure\CustomFramework.cs</Link>
     </Compile>
+    <Compile Include="..\BDD.Framework\Infrastructure\ExtendedDiscoverer.cs">
+      <Link>Infrastructure\ExtendedDiscoverer.cs</Link>
+    </Compile>
     <Compile Include="..\BDD.Framework\Infrastructure\ExtendedFact.cs">
       <Link>Infrastructure\ExtendedFact.cs</Link>
-    </Compile>
-    <Compile Include="..\BDD.Framework\Infrastructure\ExtendedTheory.cs">
-      <Link>Infrastructure\ExtendedTheory.cs</Link>
     </Compile>
     <Compile Include="..\BDD.Framework\Infrastructure\NullOptions.cs">
       <Link>Infrastructure\NullOptions.cs</Link>
