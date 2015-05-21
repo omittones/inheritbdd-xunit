@@ -11,6 +11,16 @@ namespace BDD.Debugger
             this.first = 1;
         }
 
+        [Fact(Skip = "Because it was defined as such")]
+        public void This_test_should_be_skipped()
+        {
+        }
+
+        [Fact(DisplayName = "This name should appear")]
+        public void This_name_should_not_appear()
+        {
+        }
+
         [Fact]
         public void Return_one_from_one()
         {

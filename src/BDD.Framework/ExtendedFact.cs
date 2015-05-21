@@ -1,30 +1,50 @@
 using System;
 using System.Linq;
+using Xunit;
 using Xunit.Abstractions;
 using Xunit.Sdk;
+using TestMethodDisplay = Xunit.Sdk.TestMethodDisplay;
 
 namespace BDD.Framework
 {
     public class ExtendedFact : XunitTestCase, IXunitTestCase
     {
+        private string nameOverride;
+
         [Obsolete("Called by the deserializer", true)]
         public ExtendedFact()
         {
         }
 
-        public ExtendedFact(IMessageSink diagnosticMessageSink, IXunitTestCase inner)
+        public ExtendedFact(IMessageSink diagnosticMessageSink, IXunitTestCase inner, IAttributeInfo fact)
             : base(diagnosticMessageSink,
                 TestMethodDisplay.ClassAndMethod,
                 inner.TestMethod,
                 inner.TestMethodArguments)
         {
+            this.nameOverride = fact.GetNamedArgument<string>("DisplayName");
+        }
+
+        public override void Serialize(IXunitSerializationInfo data)
+        {
+            base.Serialize(data);
+            data.AddValue("nameOverride", this.nameOverride);
+        }
+
+        public override void Deserialize(IXunitSerializationInfo data)
+        {
+            base.Deserialize(data);
+            this.nameOverride = data.GetValue<string>("nameOverride");
         }
 
         protected override void Initialize()
         {
             base.Initialize();
 
-            this.DisplayName = TransformName(this.TestMethod, this.TestMethodArguments, this.MethodGenericTypes);
+            if (string.IsNullOrEmpty(this.nameOverride))
+                this.DisplayName = TransformName(this.TestMethod, this.TestMethodArguments, this.MethodGenericTypes);
+            else
+                this.DisplayName = this.nameOverride;
         }
 
         private static string FirstLowercase(string name)
