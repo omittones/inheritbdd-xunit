@@ -1,6 +1,6 @@
 ﻿using Xunit;
 
-namespace BDD.Framework
+namespace BDD.Debugger
 {
     public class Given_another : Given_one
     {

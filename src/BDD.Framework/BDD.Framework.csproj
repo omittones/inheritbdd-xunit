@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{6A16E6AB-1E10-4ED3-BFC2-13AE6BF2CF79}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BDD.Framework</RootNamespace>
     <AssemblyName>BDD.Framework</AssemblyName>
@@ -32,7 +32,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>BDD.Framework.Program</StartupObject>
+    <StartupObject>
+    </StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -44,8 +45,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Given_another.cs" />
-    <Compile Include="Given_one.cs" />
     <Compile Include="Infrastructure\ConsoleOutputVisitor.cs" />
     <Compile Include="Infrastructure\CustomDiscoverer.cs" />
     <Compile Include="Infrastructure\CustomExecutor.cs" />

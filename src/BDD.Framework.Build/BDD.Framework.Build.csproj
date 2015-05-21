@@ -57,12 +57,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\BDD.Framework\Given_another.cs">
-      <Link>Given_another.cs</Link>
-    </Compile>
-    <Compile Include="..\BDD.Framework\Given_one.cs">
-      <Link>Given_one.cs</Link>
-    </Compile>
     <Compile Include="..\BDD.Framework\Infrastructure\ConsoleOutputVisitor.cs">
       <Link>Infrastructure\ConsoleOutputVisitor.cs</Link>
     </Compile>

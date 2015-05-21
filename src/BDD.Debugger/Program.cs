@@ -1,12 +1,7 @@
-﻿using BDD.Framework.Infrastructure;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
+﻿using BDD.Framework;
 using Xunit;
-using Xunit.Sdk;
+
+[assembly: TestFramework("BDD.Framework.Infrastructure.CustomFramework", "BDD.Framework")]
 
 namespace BDD.Debugger
 {
@@ -14,7 +9,7 @@ namespace BDD.Debugger
     {
         public static int Main(string[] args)
         {
-            return BDD.Framework.Program.Main(args);
+            return StaticRunner.RunAll(typeof (Given_one).Assembly);
         }
     }
 }
