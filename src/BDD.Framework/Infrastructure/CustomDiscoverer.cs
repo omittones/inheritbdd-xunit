@@ -26,7 +26,24 @@ namespace BDD.Framework.Infrastructure
                 ReportDiscoveredTestCase(test, includeSourceInformation, messageBus);    
             }
         }
-        
+
+        protected override bool FindTestsForType(ITestClass testClass, bool includeSourceInformation, IMessageBus messageBus, ITestFrameworkDiscoveryOptions discoveryOptions)
+        {
+            foreach (var method in testClass.Class.GetMethods(includePrivateMethods: true))
+            {
+                var classType = testClass.Class.ToRuntimeType();
+                var methodDeclaringType = method.ToRuntimeMethod().DeclaringType;
+                if (classType == methodDeclaringType)
+                {
+                    var testMethod = new TestMethod(testClass, method);
+                    if (!FindTestsForMethod(testMethod, includeSourceInformation, messageBus, discoveryOptions))
+                        return false;
+                }
+            }
+
+            return true;
+        }
+
         protected override bool FindTestsForMethod(ITestMethod testMethod,
             bool includeSourceInformation,
             IMessageBus messageBus,
