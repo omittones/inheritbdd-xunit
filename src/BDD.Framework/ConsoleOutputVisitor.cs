@@ -2,7 +2,7 @@ using System;
 using Xunit.Abstractions;
 using Xunit.Sdk;
 
-namespace BDD.Framework.Infrastructure
+namespace BDD.Framework
 {
     public class ConsoleOutputVisitor : TestMessageVisitor
     {

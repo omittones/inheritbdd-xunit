@@ -45,14 +45,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Infrastructure\ConsoleOutputVisitor.cs" />
-    <Compile Include="Infrastructure\CustomDiscoverer.cs" />
-    <Compile Include="Infrastructure\CustomExecutor.cs" />
-    <Compile Include="Infrastructure\CustomFramework.cs" />
-    <Compile Include="Infrastructure\ExtendedDiscoverer.cs" />
-    <Compile Include="Infrastructure\ExtendedFact.cs" />
-    <Compile Include="Infrastructure\NullOptions.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="ConsoleOutputVisitor.cs" />
+    <Compile Include="CustomDiscoverer.cs" />
+    <Compile Include="CustomExecutor.cs" />
+    <Compile Include="CustomFramework.cs" />
+    <Compile Include="ExtendedDiscoverer.cs" />
+    <Compile Include="ExtendedFact.cs" />
+    <Compile Include="NullOptions.cs" />
+    <Compile Include="StaticRunner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -57,29 +57,29 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\BDD.Framework\Infrastructure\ConsoleOutputVisitor.cs">
-      <Link>Infrastructure\ConsoleOutputVisitor.cs</Link>
+    <Compile Include="..\BDD.Framework\ConsoleOutputVisitor.cs">
+      <Link>ConsoleOutputVisitor.cs</Link>
     </Compile>
-    <Compile Include="..\BDD.Framework\Infrastructure\CustomDiscoverer.cs">
-      <Link>Infrastructure\CustomDiscoverer.cs</Link>
+    <Compile Include="..\BDD.Framework\CustomDiscoverer.cs">
+      <Link>CustomDiscoverer.cs</Link>
     </Compile>
-    <Compile Include="..\BDD.Framework\Infrastructure\CustomExecutor.cs">
-      <Link>Infrastructure\CustomExecutor.cs</Link>
+    <Compile Include="..\BDD.Framework\CustomExecutor.cs">
+      <Link>CustomExecutor.cs</Link>
     </Compile>
-    <Compile Include="..\BDD.Framework\Infrastructure\CustomFramework.cs">
-      <Link>Infrastructure\CustomFramework.cs</Link>
+    <Compile Include="..\BDD.Framework\CustomFramework.cs">
+      <Link>CustomFramework.cs</Link>
     </Compile>
-    <Compile Include="..\BDD.Framework\Infrastructure\ExtendedDiscoverer.cs">
-      <Link>Infrastructure\ExtendedDiscoverer.cs</Link>
+    <Compile Include="..\BDD.Framework\ExtendedDiscoverer.cs">
+      <Link>ExtendedDiscoverer.cs</Link>
     </Compile>
-    <Compile Include="..\BDD.Framework\Infrastructure\ExtendedFact.cs">
-      <Link>Infrastructure\ExtendedFact.cs</Link>
+    <Compile Include="..\BDD.Framework\ExtendedFact.cs">
+      <Link>ExtendedFact.cs</Link>
     </Compile>
-    <Compile Include="..\BDD.Framework\Infrastructure\NullOptions.cs">
-      <Link>Infrastructure\NullOptions.cs</Link>
+    <Compile Include="..\BDD.Framework\NullOptions.cs">
+      <Link>NullOptions.cs</Link>
     </Compile>
     <Compile Include="Assembly.cs" />
-    <Compile Include="Infrastructure\NullSourceInformationProvider.cs" />
+    <Compile Include="NullSourceInformationProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,7 +1,7 @@
 using System;
 using Xunit.Abstractions;
 
-namespace BDD.Framework.Infrastructure
+namespace BDD.Framework
 {
     [Serializable]
     public class NullOptions : ITestFrameworkExecutionOptions, ITestFrameworkDiscoveryOptions

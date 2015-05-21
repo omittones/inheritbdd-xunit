@@ -1,10 +1,9 @@
 ﻿using System.Reflection;
 using System.Text;
-using BDD.Framework.Infrastructure;
 using Xunit;
 using Xunit.Sdk;
 
-[assembly: TestFramework("BDD.Framework.Infrastructure.CustomFramework", "BDD.Framework")]
+[assembly: TestFramework("BDD.Framework.CustomFramework", "BDD.Framework")]
 
 namespace BDD.Framework
 {

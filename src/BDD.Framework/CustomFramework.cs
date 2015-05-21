@@ -1,10 +1,9 @@
-using System;
 using System.Reflection;
 using Xunit;
 using Xunit.Abstractions;
 using Xunit.Sdk;
 
-namespace BDD.Framework.Infrastructure
+namespace BDD.Framework
 {
     public class CustomFramework : XunitTestFramework
     {

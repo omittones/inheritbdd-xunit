@@ -1,7 +1,7 @@
 ﻿using BDD.Framework;
 using Xunit;
 
-[assembly: TestFramework("BDD.Framework.Infrastructure.CustomFramework", "BDD.Framework")]
+[assembly: TestFramework("BDD.Framework.CustomFramework", "BDD.Framework")]
 
 namespace BDD.Debugger
 {
