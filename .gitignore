@@ -8,8 +8,6 @@ help
 *.[Cc]ache
 *[Rr]esharper*
 *.zip
-*.suo
-*.user
 *.cache
 *.nupkg
 *.exe
@@ -24,3 +22,4 @@ Index.dat
 Storage.dat
 
 !libs/Microsoft.VisualStudio.TestPlatform.ObjectModel/**
+*.sublime-workspace
