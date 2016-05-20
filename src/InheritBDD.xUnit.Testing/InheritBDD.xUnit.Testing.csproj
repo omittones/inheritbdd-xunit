@@ -48,8 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="run.console.bat" />
-    <None Include="run.vstest.bat" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\libs\visualstudio.xunit\xunit.runner.visualstudio.testadapter\xunit.runner.visualstudio.testadapter.csproj">

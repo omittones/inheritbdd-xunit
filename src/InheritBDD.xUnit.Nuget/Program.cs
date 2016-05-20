@@ -1,7 +1,10 @@
 ﻿using System.Reflection;
 using InheritBDD.xUnit;
+using Xunit;
 
-namespace InheritBDD.Nuget
+[assembly: TestFramework(Framework.TypeName, Framework.AssemblyName)]
+
+namespace InheritBDD.xUnit.Nuget
 {
     public class Program
     {

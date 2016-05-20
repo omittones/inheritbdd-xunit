@@ -1,5 +1,4 @@
 ﻿using System.Reflection;
-using InheritBDD.xUnit;
 using Xunit;
 using Xunit.Sdk;
 
