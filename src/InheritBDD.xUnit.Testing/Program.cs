@@ -1,6 +1,7 @@
-﻿using Xunit;
+﻿using InheritBDD.xUnit;
+using Xunit;
 
-[assembly: TestFramework("InheritBDD.xUnit.CustomFramework", "InheritBDD.xUnit")]
+[assembly: TestFramework(Framework.TypeName, Framework.AssemblyName)]
 
 namespace InheritBDD.xUnit.Testing
 {

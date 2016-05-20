@@ -48,7 +48,7 @@
     <Compile Include="ConsoleOutputVisitor.cs" />
     <Compile Include="CustomDiscoverer.cs" />
     <Compile Include="CustomExecutor.cs" />
-    <Compile Include="CustomFramework.cs" />
+    <Compile Include="Framework.cs" />
     <Compile Include="ExtendedDiscoverer.cs" />
     <Compile Include="CustomFactDiscoverer.cs" />
     <Compile Include="NullOptions.cs" />

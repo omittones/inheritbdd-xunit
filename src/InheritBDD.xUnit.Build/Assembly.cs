@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using InheritBDD.xUnit;
 using Xunit;
 
-[assembly: TestFramework("InheritBDD.xUnit.Infrastructure.CustomFramework", "InheritBDD.xUnit.Build")]
+[assembly: TestFramework(Framework.TypeName, Framework.AssemblyName)]

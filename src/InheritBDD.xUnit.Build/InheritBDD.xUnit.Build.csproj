@@ -36,6 +36,9 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETPortable\v4.5\System.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -75,11 +78,11 @@
     <Compile Include="..\InheritBDD.xUnit.Development\CustomFactDiscoverer.cs">
       <Link>CustomFactDiscoverer.cs</Link>
     </Compile>
-    <Compile Include="..\InheritBDD.xUnit.Development\CustomFramework.cs">
-      <Link>CustomFramework.cs</Link>
-    </Compile>
     <Compile Include="..\InheritBDD.xUnit.Development\ExtendedDiscoverer.cs">
       <Link>ExtendedDiscoverer.cs</Link>
+    </Compile>
+    <Compile Include="..\InheritBDD.xUnit.Development\Framework.cs">
+      <Link>Framework.cs</Link>
     </Compile>
     <Compile Include="..\InheritBDD.xUnit.Development\NullOptions.cs">
       <Link>NullOptions.cs</Link>

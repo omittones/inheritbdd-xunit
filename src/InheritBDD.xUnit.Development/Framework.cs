@@ -5,9 +5,13 @@ using Xunit.Sdk;
 
 namespace InheritBDD.xUnit
 {
-    public class CustomFramework : XunitTestFramework
+    public class Framework : XunitTestFramework
     {
-        public CustomFramework(IMessageSink messageSink) : base(messageSink)
+        public const string AssemblyName = "InheritBdd.xUnit";
+
+        public const string TypeName = "InheritBdd.xUnit.Framework";
+
+        public Framework(IMessageSink messageSink) : base(messageSink)
         {
             this.SourceInformationProvider = new NullSourceInformationProvider();
         }
