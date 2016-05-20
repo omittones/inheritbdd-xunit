@@ -23,7 +23,7 @@ namespace BDD.Framework
         {
             foreach (var test in this.inner.Discover(discoveryOptions, testMethod, factAttribute))
             {
-                yield return new ExtendedFact(this.DiagnosticMessageSink, test, factAttribute);
+                yield return new CustomFactDiscoverer(this.DiagnosticMessageSink, test, factAttribute);
             }
         }
     }

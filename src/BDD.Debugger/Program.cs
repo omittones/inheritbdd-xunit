@@ -9,7 +9,7 @@ namespace BDD.Debugger
     {
         public static int Main(string[] args)
         {
-            return StaticRunner.RunAll(typeof (Given_one).Assembly);
+            return SelfHostedRunner.RunAll(typeof (Given_one).Assembly);
         }
     }
 }

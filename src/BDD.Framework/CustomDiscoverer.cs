@@ -49,7 +49,7 @@ namespace BDD.Framework
             IMessageBus messageBus,
             ITestFrameworkDiscoveryOptions discoveryOptions)
         {
-            var factDiscoverer = new ExtendedDiscoverer(new FactDiscoverer(this.DiagnosticMessageSink))
+            var factDiscoverer = new ExtendedDiscoverer(new Xunit.Sdk.FactDiscoverer(this.DiagnosticMessageSink))
             {
                 DiagnosticMessageSink = this.DiagnosticMessageSink
             };

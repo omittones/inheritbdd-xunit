@@ -50,9 +50,9 @@
     <Compile Include="CustomExecutor.cs" />
     <Compile Include="CustomFramework.cs" />
     <Compile Include="ExtendedDiscoverer.cs" />
-    <Compile Include="ExtendedFact.cs" />
+    <Compile Include="CustomFactDiscoverer.cs" />
     <Compile Include="NullOptions.cs" />
-    <Compile Include="StaticRunner.cs" />
+    <Compile Include="SelfHostedRunner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -13,6 +13,8 @@
     <AssemblyName>BDD.Framework.Build</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -55,6 +57,10 @@
       <HintPath>..\packages\xunit.extensibility.execution.2.0.0\lib\net45\xunit.execution.desktop.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="xunit.runner.utility.desktop, Version=2.0.0.2929, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\xunit.extensibility.core.2.1.0\lib\dotnet\xunit.runner.utility.desktop.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\BDD.Framework\ConsoleOutputVisitor.cs">
@@ -66,17 +72,20 @@
     <Compile Include="..\BDD.Framework\CustomExecutor.cs">
       <Link>CustomExecutor.cs</Link>
     </Compile>
+    <Compile Include="..\BDD.Framework\CustomFactDiscoverer.cs">
+      <Link>CustomFactDiscoverer.cs</Link>
+    </Compile>
     <Compile Include="..\BDD.Framework\CustomFramework.cs">
       <Link>CustomFramework.cs</Link>
     </Compile>
     <Compile Include="..\BDD.Framework\ExtendedDiscoverer.cs">
       <Link>ExtendedDiscoverer.cs</Link>
     </Compile>
-    <Compile Include="..\BDD.Framework\ExtendedFact.cs">
-      <Link>ExtendedFact.cs</Link>
-    </Compile>
     <Compile Include="..\BDD.Framework\NullOptions.cs">
       <Link>NullOptions.cs</Link>
+    </Compile>
+    <Compile Include="..\BDD.Framework\SelfHostedRunner.cs">
+      <Link>SelfHostedRunner.cs</Link>
     </Compile>
     <Compile Include="Assembly.cs" />
     <Compile Include="NullSourceInformationProvider.cs" />
