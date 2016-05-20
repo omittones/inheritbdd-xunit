@@ -7,9 +7,9 @@ namespace InheritBDD.xUnit
 {
     public class Framework : XunitTestFramework
     {
-        public const string AssemblyName = "InheritBdd.xUnit";
+        public const string AssemblyName = "InheritBDD.xUnit";
 
-        public const string TypeName = "InheritBdd.xUnit.Framework";
+        public const string TypeName = "InheritBDD.xUnit.Framework";
 
         public Framework(IMessageSink messageSink) : base(messageSink)
         {
