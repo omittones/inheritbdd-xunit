@@ -3,7 +3,7 @@ using System.Linq;
 using Xunit.Abstractions;
 using Xunit.Sdk;
 
-namespace BDD.Framework
+namespace InheritBDD.xUnit
 {
     public class CustomFactDiscoverer : XunitTestCase, IXunitTestCase
     {

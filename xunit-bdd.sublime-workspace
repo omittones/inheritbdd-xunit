@@ -1,0 +1,2386 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Assi",
+				"AssigneeID"
+			],
+			[
+				"st",
+				"styleUrl"
+			],
+			[
+				"Emplo",
+				"EmployeeID"
+			],
+			[
+				"X",
+				"xUsers_SecurityProfile"
+			],
+			[
+				"user",
+				"UserId"
+			],
+			[
+				"xe",
+				"xUsers_SecurityProfile"
+			],
+			[
+				"emplo",
+				"EmployerID"
+			],
+			[
+				"Cr",
+				"CurrentManagerId"
+			],
+			[
+				"Repo",
+				"ReportingToEmployeeID"
+			],
+			[
+				"Old",
+				"OldManagerEmployeeID"
+			],
+			[
+				"Mana",
+				"ManagerProfileId"
+			],
+			[
+				"Activ",
+				"ActiveEvaluationFilterMode	enum"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"Ne",
+				"NEW_TaskStatus"
+			],
+			[
+				"task",
+				"taskModel"
+			],
+			[
+				"eval",
+				"evaluationId"
+			],
+			[
+				"cons",
+				"constructor	keyword"
+			],
+			[
+				"User",
+				"UserId"
+			],
+			[
+				"find",
+				"findWhere"
+			],
+			[
+				"filt",
+				"filters"
+			],
+			[
+				"Date",
+				"DateRestrict"
+			],
+			[
+				"filter",
+				"filterType"
+			],
+			[
+				"After",
+				"AfterTheSpecificDate"
+			],
+			[
+				"befor",
+				"BeforeTheSpecificDate"
+			],
+			[
+				"datep",
+				"dateFilterOperator"
+			],
+			[
+				"upda",
+				"updateHeaderValue"
+			],
+			[
+				"filte",
+				"filterOperator"
+			],
+			[
+				"upd",
+				"updateHeaderValue"
+			],
+			[
+				"filr",
+				"filterOperator"
+			],
+			[
+				"oper",
+				"operator"
+			],
+			[
+				"isv",
+				"isValueDate"
+			],
+			[
+				"ext",
+				"extendDataSourceWithPrefilter"
+			],
+			[
+				"extend",
+				"extendDataSource"
+			],
+			[
+				"set",
+				"setFilter"
+			],
+			[
+				"file",
+				"filter"
+			],
+			[
+				"sele",
+				"selectionModel"
+			],
+			[
+				"apply",
+				"applyPredefinedFilterToUserFilter"
+			],
+			[
+				"data",
+				"dataSource"
+			],
+			[
+				"grid",
+				"gridInstance"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"trn",
+				"translateValue"
+			],
+			[
+				"trans",
+				"translateFilter"
+			],
+			[
+				"temp",
+				"tempFilter"
+			],
+			[
+				"Work",
+				"EvaluationWorkflowID"
+			],
+			[
+				"TestReposi",
+				"TestRepository"
+			],
+			[
+				"Is",
+				"IsOverdue"
+			],
+			[
+				"step",
+				"StepType_Rater"
+			],
+			[
+				"Step",
+				"StepType"
+			],
+			[
+				"TaskSt",
+				"TaskStatus_Current"
+			],
+			[
+				"Neogo",
+				"NeogovPeDb"
+			],
+			[
+				"employee",
+				"employeeRepository"
+			],
+			[
+				"evaluation",
+				"evaluationService"
+			],
+			[
+				"Curre",
+				"CurrentUserAsRater"
+			],
+			[
+				"Eval",
+				"EvaluationProcessStepView"
+			],
+			[
+				"Cur",
+				"Current"
+			],
+			[
+				"Curr",
+				"CurrentUser"
+			],
+			[
+				"Completion",
+				"CompletionType_Optional"
+			],
+			[
+				"EmployeeEval",
+				"EmployeeEvaluationID"
+			],
+			[
+				"Evalu",
+				"EvaluationProcessStep"
+			],
+			[
+				"Empl",
+				"EmployeeEvaluationSection"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"CRE",
+				"CreatedFromLibrarySectionID"
+			],
+			[
+				"Item",
+				"ItemAssignableToProgram"
+			],
+			[
+				"ite",
+				"ItemAssignableToProgram"
+			],
+			[
+				"log",
+				"logger"
+			],
+			[
+				"posi",
+				"positionID"
+			],
+			[
+				"entity",
+				"entityTypeCache"
+			],
+			[
+				"in",
+				"InstancePerLifetimeScope"
+			],
+			[
+				"sle",
+				"SelectedHierarchy"
+			],
+			[
+				"Ins",
+				"InstancePerLifetimeScope"
+			],
+			[
+				"As",
+				"AsSelf"
+			],
+			[
+				"Asso",
+				"AssociatedApproverId"
+			],
+			[
+				"Per",
+				"Performance"
+			],
+			[
+				"Perf",
+				"PerfEvalParentMenuID"
+			],
+			[
+				"per",
+				"PerfEvalParentMenuID"
+			],
+			[
+				"Tas",
+				"TaskID"
+			],
+			[
+				"Task",
+				"TaskID"
+			],
+			[
+				"ass",
+				"AssigneeEntityTypeID"
+			],
+			[
+				"Assigne",
+				"AssigneeEntityTypeID"
+			],
+			[
+				"Employ",
+				"EmployeeID"
+			],
+			[
+				"Ass",
+				"AssociatedEntityID"
+			],
+			[
+				"Associ",
+				"AssociatedEntityTypeID"
+			],
+			[
+				"Evaluation",
+				"EvaluationEntityType"
+			],
+			[
+				"Associa",
+				"AssociatedEvaluationId"
+			],
+			[
+				"asso",
+				"AssociatedApproverId"
+			],
+			[
+				"Config",
+				"ConfigurationManager"
+			],
+			[
+				"Send",
+				"SendToCustomEmployeeID"
+			],
+			[
+				"prob",
+				"probation"
+			],
+			[
+				"MAx",
+				"MaxProbationDate"
+			],
+			[
+				"Max",
+				"MaxProbationDate"
+			],
+			[
+				"Calc",
+				"CalculatedMaxProbationDate"
+			],
+			[
+				"Temp",
+				"TempDate"
+			],
+			[
+				"max",
+				"MaxProbationDate"
+			],
+			[
+				"Las",
+				"LastEvaluationDueDate"
+			],
+			[
+				"STa",
+				"StartingPoint_Immediatly"
+			],
+			[
+				"Sta",
+				"StartingPoint"
+			],
+			[
+				"dbsch",
+				"dbschemas"
+			],
+			[
+				"EMpl",
+				"EmployeeEvaluationID"
+			],
+			[
+				"sou",
+				"EmployeeEvaluationSourceID"
+			],
+			[
+				"sue",
+				"SupervisorID"
+			],
+			[
+				"Tasks",
+				"TaskStatusDate"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"USe",
+				"UserData"
+			],
+			[
+				"Nex",
+				"NextDueDate"
+			],
+			[
+				"Fre",
+				"FrequencyBasis_LastProbitionary"
+			],
+			[
+				"Cre",
+				"CreationDate"
+			],
+			[
+				"Ove",
+				"OverrideOutputFormat"
+			],
+			[
+				"Templ",
+				"TemplateSourceID"
+			],
+			[
+				"ove",
+				"OverrideTemplateID"
+			],
+			[
+				"GoalVersion",
+				"GoalVersionID"
+			],
+			[
+				"EmployeeF",
+				"EmployeeFirstName"
+			],
+			[
+				"PE",
+				"PEStatus"
+			],
+			[
+				"cur",
+				"CurrentEvaluationStatus"
+			],
+			[
+				"empl",
+				"EmployeeEvaluationID"
+			],
+			[
+				"empo",
+				"EmployeeEvaluationID"
+			],
+			[
+				"eva",
+				"EmployeeEvaluationID"
+			],
+			[
+				"IsC",
+				"IsCancelled"
+			],
+			[
+				"core",
+				"corehr-services"
+			],
+			[
+				"conf",
+				"configuration"
+			],
+			[
+				"Pa",
+				"Pattern"
+			],
+			[
+				"add",
+				"Add"
+			],
+			[
+				"se",
+				"SecurityProfiles"
+			],
+			[
+				"use",
+				"UserID"
+			],
+			[
+				"hr",
+				"hruser"
+			],
+			[
+				"Se",
+				"SecurityObjectID"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 310.0,
+		"last_filter": "converto",
+		"selected_items":
+		[
+			[
+				"converto",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"convert",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"dlee",
+				"File: Delete"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"convet",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"newfl",
+				"File: New File Relative to Current View"
+			],
+			[
+				"con",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"type",
+				"Set Syntax: TypeScript"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"conver",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"new ",
+				"File: New File Relative to Current View"
+			],
+			[
+				"newf",
+				"File: New File Relative to Current View"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"removepa",
+				"Package Control: Remove Package"
+			],
+			[
+				"intallpa",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"filede",
+				"File: Delete"
+			],
+			[
+				"setsyjson",
+				"Set Syntax: JSON"
+			],
+			[
+				"json",
+				"Indent JSON"
+			],
+			[
+				"js",
+				"Indent JSON"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"re",
+				"File: Rename"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"disablep",
+				"Package Control: Disable Package"
+			],
+			[
+				"iden",
+				"Auto indent"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"autod",
+				"Auto indent"
+			],
+			[
+				"ide",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"autid",
+				"Auto indent"
+			],
+			[
+				"setjava",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"setsja",
+				"Set Syntax: Java Properties"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"conve",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"convetto",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"convr",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"installp",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"convertto",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"spell",
+				"Google Spell Check"
+			],
+			[
+				"rem",
+				"File: Rename"
+			],
+			[
+				"text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"dev",
+				"DevDocs: Search From Input"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"synttext",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"setsyma",
+				"Set Syntax: Markdown"
+			],
+			[
+				"set",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"file",
+				"File: Duplicate"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"setpow",
+				"Set Syntax: PowerShell"
+			],
+			[
+				"setsynhtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"installpa",
+				"Package Control: Install Package"
+			],
+			[
+				"listpa",
+				"Package Control: List Packages"
+			],
+			[
+				"sortli",
+				"Sort Lines"
+			],
+			[
+				"rene",
+				"File: Rename"
+			],
+			[
+				"c#",
+				"Set Syntax: C#"
+			],
+			[
+				"delet",
+				"File: Delete"
+			],
+			[
+				"du",
+				"File: Duplicate"
+			],
+			[
+				"filedu",
+				"File: Duplicate"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"power",
+				"Set Syntax: PowerShell"
+			],
+			[
+				"renam",
+				"File: Rename"
+			],
+			[
+				"del",
+				"File: Delete"
+			],
+			[
+				"filene",
+				"File: New File Relative to Current View"
+			],
+			[
+				"filenew",
+				"File: New File Relative to Current View"
+			],
+			[
+				"setsyhas",
+				"Set Syntax: Haskell"
+			],
+			[
+				"delte",
+				"File: Delete"
+			],
+			[
+				"cop",
+				"File: Copy Path"
+			],
+			[
+				"filed",
+				"File: Duplicate"
+			],
+			[
+				"ream",
+				"File: Rename"
+			],
+			[
+				"copy",
+				"File: Copy Path"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"lowe",
+				"Convert Case: Lower Case"
+			],
+			[
+				"file dele",
+				"File: Delete"
+			],
+			[
+				"setsynthtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"setsyntahtml",
+				"Set Syntax: HTML (ASP)"
+			],
+			[
+				"pacarem",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"upperca",
+				"Convert Case: Upper Case"
+			],
+			[
+				"uppe",
+				"Convert Case: Upper Case"
+			],
+			[
+				"conv",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"filedel",
+				"File: Delete"
+			],
+			[
+				"powe",
+				"Set Syntax: Powershell v2"
+			],
+			[
+				"setpo",
+				"Set Syntax: Powershell v2"
+			],
+			[
+				"setsyntc",
+				"Set Syntax: C#"
+			],
+			[
+				"convertospa",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"space",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"converspa",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"reid",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ident",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"convert to",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"convert t ",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"convertsp",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"convert to space",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"convert to ",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"wr",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"wra",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"wrap",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"remp",
+				"Package Control: Remove Package"
+			],
+			[
+				"jsli",
+				"JSLint"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"insa",
+				"Package Control: Install Package"
+			],
+			[
+				"bat",
+				"Set Syntax: Batch File"
+			],
+			[
+				"reve",
+				"File: Reveal"
+			],
+			[
+				"upd",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"git",
+				"Git: Change Branch"
+			],
+			[
+				"git bran",
+				"Git: Change Branch"
+			],
+			[
+				"xm",
+				"Set Syntax: XML"
+			],
+			[
+				"id",
+				"Indent XML"
+			],
+			[
+				"sets",
+				"Set Syntax: HTML"
+			],
+			[
+				"snipp",
+				"Snippet: CDATA"
+			],
+			[
+				"set xml",
+				"Set Syntax: XML"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"batch ",
+				"Set Syntax: Batch File"
+			],
+			[
+				"set bat",
+				"Set Syntax: Batch File"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"",
+				"Auto indent"
+			],
+			[
+				"filecop",
+				"File: Copy URL"
+			],
+			[
+				"prefe",
+				"Preferences: Package Control Settings – Default"
+			]
+		],
+		"width": 1320.0
+	},
+	"console":
+	{
+		"height": 269.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Code/cs-lib-xunit-playground",
+		"/D/Code/cs-lib-xunit-playground/libs",
+		"/D/Code/cs-lib-xunit-playground/src"
+	],
+	"file_history":
+	[
+		"/D/Code/cs-lib-xunit-playground/src/BDD.Debugger/vstest.console.bat",
+		"/D/Code/cs-lib-xunit-playground/src/BDD.Debugger/Program.cs",
+		"/D/Code/cs-lib-xunit-playground/src/BDD.Debugger/BDD.Debugger.csproj",
+		"/D/Code/cs-lib-xunit-playground/src/BDD.Framework.sln",
+		"/D/Code/cs-lib-xunit-playground/src/BDD.Framework/BDD.Framework.csproj",
+		"/D/Code/cs-lib-xunit-playground/src/BDD.Framework/ConsoleOutputVisitor.cs",
+		"/D/Code/cs-lib-xunit-playground/src/BDD.Framework/CustomDiscoverer.cs",
+		"/D/Code/cs-lib-xunit-playground/src/BDD.Framework/CustomExecutor.cs",
+		"/D/Code/cs-lib-xunit-playground/src/BDD.Framework/CustomFactDiscoverer.cs",
+		"/D/Code/cs-lib-xunit-playground/src/BDD.Framework/CustomFramework.cs",
+		"/D/Code/cs-lib-xunit-playground/src/BDD.Framework/ExtendedDiscoverer.cs",
+		"/D/Code/cs-lib-xunit-playground/src/BDD.Framework/NullOptions.cs",
+		"/D/Code/cs-lib-xunit-playground/src/BDD.Framework/SelfHostedRunner.cs",
+		"/D/Code/cs-lib-xunit-playground/src/BDD.Framework.Build/Assembly.cs",
+		"/D/Code/cs-lib-xunit-playground/src/BDD.Framework.Build/BDD.Framework.Build.csproj",
+		"/D/Code/cs-lib-xunit-playground/src/BDD.Framework.Build/NullSourceInformationProvider.cs",
+		"/D/Code/cs-lib-xunit-playground/src/BDD.Framework.Build/Properties/AssemblyInfo.cs",
+		"/D/Code/cs-lib-xunit-playground/src/packages/repositories.config",
+		"/D/Code/cs-lib-xunit-playground/xunit-bdd.sublime-project",
+		"/D/Code/cs-lib-xunit-playground/src/BDD.Framework/test/SelfHostedRunner.cs",
+		"/D/Code/neogov/platform/src/PerformModules/Perform.Readonly.Infrastructure/Queries/Evaluation/EvaluationQuery.cs",
+		"/D/Code/neogov/platform/databases/neogovpe/03_views/2000_tasks.vw_TaskTypes.sql",
+		"/D/Code/neogov/personal/accounts.UAT.txt",
+		"/D/Code/neogov/personal/accounts.XXXX.DHS-QA.txt",
+		"/D/Code/neogov/platform/src/PerformModules/Perform.Common.Core/Enums/EntityIdType.cs",
+		"/D/Code/neogov/platform/src/PerformModules/Perform.Common.Core/Enums/ProgramTargetType.cs",
+		"/D/Code/neogov/platform/databases/neogovpe/03_views/dbo.Employers.View.sql",
+		"/D/Code/neogov/platform/databases/neogovpe/02_functions/dbo.ufn_SecurityEmployeeAccess.UserDefinedFunction.sql",
+		"/D/Code/neogov/platform/databases/neogovpe/03_views/dbo.Brands.View.sql",
+		"/D/Code/ef-example-filters/src/EntityFramework.Filters/FilterQueryVisitor.cs",
+		"/D/DotNet/MP3Utils/.git/refs/remotes/origin/HEAD",
+		"/D/DotNet/MP3Utils/SharpNeat.sln",
+		"/D/DotNet/MP3Utils/Evolution.sln",
+		"/D/Code/neogov/platform/src/PerformModules/Perform.Readonly.Core/Entities/EvaluationWorkflow.cs",
+		"/D/Code/neogov/platform/src/PerformModules/Perform.EvaluationRating.Core/DomainModel/Workflow/EvaluationProcess.cs",
+		"/D/Code/neogov/platform/src/WebApp/APIs/Evaluation/Controllers/EvaluationController.cs",
+		"/D/Code/neogov/platform/src/PerformModules/Perform.EvaluationSetup.Core/DomainSpecifications/Employee/EmployeeCanEditEvaluation.cs",
+		"/D/Code/neogov/platform/databases/neogovpe/02_functions/dbo.EmployeesNextProgramInfo.UserDefinedFunction.sql",
+		"/D/Code/neogov/platform/databases/neogovpe/03_views/dbo.vw_DirectManager.View.sql",
+		"/D/Code/neogov/platform/src/PerformModules/Perform.Common.Core/RuleBuilders/RuleName.cs",
+		"/D/Code/neogov/platform/src/WebApp/Content/CompiledTypescript/Areas/Evaluation/List/Directives/evaluationList.js",
+		"/D/Code/cs-lib-accordnet/Sources/Building.txt",
+		"/C/Users/ajuricic/Desktop/employee_add_Failure.csv",
+		"/D/Code/neogov/personal/build.ps1",
+		"/D/Code/cs-lib-sharpneat/src/clean_up.bat",
+		"/D/Code/neogov/platform/mig.config",
+		"/D/Code/neogov/platform/mig.config.template",
+		"/D/Code/neogov/platform/databases/neogovpe/04_stored_procedures/dbo.stp_EmployeeEvaluations_SelectFiltered.StoredProcedure.sql",
+		"/D/Code/neogov/platform/src/WebApp/web.config",
+		"/D/Code/neogov/platform/src/Scheduling.Api.Hangfire/HangfireServerModule.cs",
+		"/D/Code/neogov/platform/src/WebApp/Bootstrapper.cs",
+		"/D/Code/neogov/platform/src/WebApp/scripts/Neogov/neogov-helpers.js",
+		"/D/Code/neogov/platform/src/WebApp/scripts/Areas/Evaluation/Layout/Evaluation-Layout-Controller.js",
+		"/D/Code/neogov/platform/src/PerformModules/Perform.Readonly.Infrastructure/RuleBuilders/EvaluationRuleBuilder.cs",
+		"/D/Code/neogov/platform/src/WebApp/scripts/Areas/Position/Services/Position-Data-Store.js",
+		"/D/Code/neogov/platform/src/WebApp/scripts/Areas/FlamingoDashboard/Endpoints/ApiEvaluation.ts",
+		"/D/Code/neogov/platform/src/PerformModules/Perform.Readonly.Infrastructure/RuleContexts/EmployerRuleContext.cs",
+		"/D/Code/neogov/platform/databases/neogovpe/04_stored_procedures/dbo.Employees_Update.StoredProcedure.sql",
+		"/D/Code/neogov/platform/databases/neogovpe/04_stored_procedures/dbo.Employees_Insert.StoredProcedure.sql",
+		"/D/Code/neogov/platform/src/WebApp/scripts/Areas/FlamingoDashboard/Models/IEvaluationView.ts",
+		"/D/Code/neogov/platform/src/PerformModules/Perform.Readonly.Infrastructure.Test/Queries/Given_evaluation_workflow.cs",
+		"/D/Code/neogov/platform/databases/neogovpe/04_stored_procedures/dbo.stp_GetVisibleEmployees.StoredProcedure.sql",
+		"/D/Code/neogov/platform/src/WebApp/APIs/Evaluation/Controllers/Process/EvaluationProcessController.cs",
+		"/D/Code/neogov/platform/databases/neogovpe/02_functions/dbo.fn_GetDirectReportEmployeeID.UserDefinedFunction.sql",
+		"/D/Code/neogov/platform/src/WebApp/ConfigurationFiles/ConnectionStrings.config",
+		"/D/Code/neogov/platform/src/PerformModules/Perform.Readonly.Infrastructure/RuleBuilders/EvaluationProcessRuleBuilder.cs",
+		"/D/Code/neogov/platform/src/PerformModules/Perform.Readonly.Infrastructure/RuleBuilders/EvaluationStatusRuleBuilder.cs",
+		"/D/Code/neogov/platform/src/PerformModules/Perform.Readonly.Infrastructure/RuleBuilders/EvaluationStatusDetailsRuleBuilder.cs",
+		"/D/Code/neogov/platform/src/PerformModules/Perform.Readonly.Infrastructure/RuleBuilders/TaskRuleBuilder.cs",
+		"/D/Code/neogov/platform/src/WebApp/scripts/Areas/BulkOperations/Bulk/Services/GridConfigService.js",
+		"/D/Code/neogov/platform/src/WebApp/scripts/Areas/BulkOperations/Bulk/Controllers/BulkActionsController.js",
+		"/D/Code/neogov/platform/src/WebApp/Areas/BulkOperations/Views/Bulk/ActionDetail.cshtml",
+		"/D/Code/neogov/platform/src/WebApp/Areas/BulkOperations/Views/Bulk/BulkActions.cshtml",
+		"/D/Code/neogov/platform/src/WebApp/Areas/BulkOperations/Views/Bulk/Index.cshtml",
+		"/D/Code/dotnet/cli-samples/HelloMvcApi/project.json",
+		"/D/DotNet/_Private/Utils.DeezerBackup/Program.cs",
+		"/D/Code/dotnet/test-solution/test-console-app/temp/project.json",
+		"/D/Code/dotnet/test-solution/test-solution.sln",
+		"/D/Code/neogov/platform/src/WebApp/scripts/angular/shared/Forms/PrintForm/pe-print-form.js",
+		"/D/Code/neogov/platform/src/WebApp/scripts/Areas/PhoenixEvaluation/Layout/Evaluation-Layout-Controller.js",
+		"/D/Code/neogov/platform/src/WebApp/scripts/Areas/PhoenixEvaluation/Layout/Templates/PhoenixEvaluation-Layout.cshtml",
+		"/D/Code/neogov/platform/src/WebApp/scripts/Areas/PhoenixEvaluation/Process/Editors/PhoenixEvaluation-Process-ProcessEditor.js",
+		"/D/Code/neogov/platform/src/PerformModules/Perform.Common.Core/DomainEvents/ProgramActivatedEvent.cs",
+		"/D/Code/neogov/platform/databases/neogovpe/02_functions/dbo.fn_GetEmployeeProfile.UserDefinedFunction.sql",
+		"/D/Code/neogov/platform/databases/neogovpe/04_stored_procedures/dbo.stp_ReassignManager.sql",
+		"/D/Code/neogov/platform/databases/neogovpe/04_stored_procedures/dbo.UserSSO_Update.StoredProcedure.sql",
+		"/D/Code/neogov/platform/databases/neogovpe/04_stored_procedures/dbo.Users_Update.StoredProcedure.sql",
+		"/D/Code/neogov/web/src/Neogov.Unified.Web/Web.config",
+		"/D/Code/neogov/web/src/Neogov.Unified.Web/Configuration/unifiedAuthentication.config",
+		"/D/Code/neogov/platform/databases/neogovpe/04_stored_procedures/dbo.Users_Insert.StoredProcedure.sql",
+		"/D/Code/neogov/platform/databases/neogovpe/04_stored_procedures/dbo.stp_GetUserActionItems.StoredProcedure.sql",
+		"/D/Code/neogov/platform/databases/neogovpe/02_functions/dbo.fn_GetEmployeeProfileForManualUpdate.UserDefinedFunction.sql",
+		"/D/Code/neogov/platform/databases/neogovpe/02_functions/000-delete-unused-functions.sql",
+		"/D/Code/neogov/platform/databases/neogovpe/04_stored_procedures/400.dbo.stp_RegenerateEmployeesSecurityProfile.sql",
+		"/D/Code/neogov/platform/databases/neogovpe/04_stored_procedures/dbo.stp_CreateUserForEmployee.StoredProcedure.sql",
+		"/D/Code/neogov/platform/databases/neogovpe/04_stored_procedures/dbo.stp_AssociateInsightUserToEmployee.StoredProcedure.sql",
+		"/D/Code/neogov/platform/databases/neogovpe/04_stored_procedures/dbo.stp_UserActivationComplete.StoredProcedure.sql",
+		"/D/Code/neogov/platform/databases/neogovpe/01_scripts/0176_PF-15884-CoredataPush/13_DropUnused_procs.sql",
+		"/D/Code/neogov/platform/databases/neogovpe/04_stored_procedures/dbo.stp_UserRole_Insert_PE.StoredProcedure.sql",
+		"/D/Code/neogov/platform/databases/neogovpe/04_stored_procedures/000.dbo.stp_RegenerateEmployeesSecurityProfile.sql",
+		"/D/Code/neogov/platform/databases/neogovpe/04_stored_procedures/dbo.stp_RemoveProgramTargets.StoredProcedure.sql",
+		"/D/Code/neogov/platform/databases/neogovpe/02_functions/dbo.ufn_CheckRecursion.UserDefinedFunction.sql",
+		"/D/Code/neogov/platform/databases/neogovpe/05_triggers/tr_xEmployee_ReportingToEmployees_afterInsert.Trigger.sql",
+		"/D/Code/neogov/platform/src/WebApp/Areas/Employee/Controllers/EmployeeController.cs",
+		"/D/Code/neogov/personal/neogov.platform.sublime-project",
+		"/D/?",
+		"/D/Code/neogov/platform/mig-qa.config",
+		"/D/Code/neogov/platform/src/PerformModules/Perform.Common.Core/Enums/SignatureType.cs",
+		"/D/Code/neogov/platform/mig-loadtest-write.config",
+		"/D/Code/neogov/platform/databases/neogovpe/01_scripts/0187-PF-16659-signature-fix/00-add-missing-signature-data-to-steps.sql",
+		"/D/Code/neogov/platform/src/Neogov.PE.Entities/Implementation/StepType.cs",
+		"/D/Code/neogov/platform/src/WebApp/ConfigurationFiles/unifiedAuthentication.config",
+		"/D/Code/neogov/platform/databases/neogovpe/01_scripts/0130_PF-0000-phoenix/001.Create_Question.sql",
+		"/D/Code/dotnet/cli/src/dotnet/project.json",
+		"/D/Code/dotnet/cli/README.md",
+		"/D/Code/dotnet/cli/src/dotnet/dotnet.xproj",
+		"/D/Code/dotnet/test-solution/global.json",
+		"/D/Code/dotnet/test-solution/.gitignore",
+		"/D/Code/dotnet/test-solution/test-dnx-console-app/project.json",
+		"/D/Code/dotnet/test-solution/test-project/test-project.xproj",
+		"/D/Code/neogov/core-hr MIG Testing/MIG NEW Feature Checklist.txt",
+		"/D/Code/neogov/MIG Testing/ISSUE TRACKER.txt",
+		"/D/Code/neogov/core-hr/databases/mssql/hrcloud/01_scripts/0181-application-sub-types/003-update-employer-application-link-table.sql",
+		"/D/Code/neogov/core-hr/databases/mssql/customobjectscorehr/01_scripts/0297-add-condition-field-graph-column-to-rule-expression.sql",
+		"/D/Code/neogov/core-hr/databases/mig.config",
+		"/D/Code/dotnet/cli/build.log",
+		"/D/Code/dotnet/cli/scripts/obtain/install.ps1",
+		"/D/Code/dotnet/cli/scripts/run-build.ps1"
+	],
+	"find":
+	{
+		"height": 47.0
+	},
+	"find_in_files":
+	{
+		"height": 220.0,
+		"where_history":
+		[
+			"",
+			"*.cs",
+			"*.ts,*.js",
+			"*.csproj",
+			"*.js",
+			"*.cshtml",
+			"*.js",
+			"",
+			"*.cs",
+			"*.cshtml, *.js",
+			"*.sql",
+			"*.csproj, *.cs, *.js, *.cshtml, *.html, *.sql",
+			"*.csproj, *.cs, *.js, *.cshtml, *.html",
+			"",
+			"*.csproj,*.cs,*.js,*.html,*.cshtml",
+			"*.js,*.html,*.cshtml",
+			"*.csproj",
+			"",
+			"*.csproj,*.sln",
+			"*.sql",
+			"D:\\Code\\neogov\\platform,*.csproj",
+			"D:\\Code\\neogov\\platform,*.cs",
+			"D:\\Code\\neogov\\platform,*.cs,*.js,*.cshtml",
+			"D:\\Code\\neogov,*.cs,*.js,*.cshtml",
+			"D:\\Code\\neogov,*.sql",
+			"D:\\Code\\neogov",
+			"D:\\Code\\neogov\\platform,*.sql",
+			"D:\\Code\\neogov\\platform,*.ts",
+			"D:\\Code\\neogov\\platform,*.cs, *.sql",
+			"D:\\Code\\neogov\\platform,*.cs",
+			"D:\\Code\\neogov\\platform,*.ts",
+			"D:\\Code\\neogov\\platform,*.js",
+			"D:\\Code\\neogov\\platform,*.cshtml",
+			"D:\\Code\\neogov\\platform,*.js",
+			"D:\\Code\\neogov\\platform,*.sql",
+			"D:\\Code\\neogov,*.ts",
+			"D:\\Code\\neogov,*.js,*.ts",
+			"D:\\Code\\neogov,*.cs, *.sql",
+			"D:\\Code\\neogov,*.cs",
+			"D:\\Code\\neogov\\platform,*.cs",
+			"D:\\Code\\neogov\\platform,*.sql",
+			"D:\\Code\\neogov\\platform\\src\\,*.sql",
+			"D:\\Code\\neogov\\platform\\src\\,*.js,*.cshtml,*.html,*.cs",
+			"D:\\Code\\neogov\\platform\\src\\WebApp,*.js, *.cshtml, *.html, *.cs",
+			"D:\\Code\\neogov\\platform\\src\\WebApp,*.js, *.cshtml, *.html",
+			"*.js, *.cshtml, *.html",
+			"*.cs",
+			"*.cshtml, *.html, *.js",
+			"*.cshtml, *.html",
+			"D:\\Code\\neogov\\platform\\src\\WebApp\\APIs,*.cs",
+			"*.cs",
+			"*.js,*.html,*.cshtml",
+			"D:\\Code\\neogov\\platform\\src,*.js,*.html,*.cshtml",
+			"D:\\Code\\neogov\\platform\\src,*.js,*.html,*.cshtml,*.cs, *.config",
+			"D:\\Code\\neogov\\platform\\src,*.js,*.html,*.cshtml,*.cs",
+			"D:\\Code\\neogov\\platform\\src,*.js,*.html,*.cshtml",
+			"D:\\Code\\neogov\\platform\\src,*.js",
+			"D:\\Code\\neogov\\platform\\src,*.cs",
+			"D:\\Code\\neogov\\platform\\src,*.js",
+			"D:\\Code\\neogov\\platform\\src,*.cs",
+			"D:\\Code\\neogov\\platform\\src,*.csproj",
+			"D:\\Code\\neogov\\platform\\src,*.js",
+			"D:\\Code\\neogov\\platform\\src\\WebApp\\scripts\\angular\\shared,*.js",
+			"D:\\Code\\neogov\\platform,*.js",
+			"D:\\Code\\neogov\\platform,*.sql",
+			"D:\\Code\\neogov\\platform,*.csproj",
+			"D:\\Code\\neogov\\platform,*.cs",
+			"D:\\Code\\neogov\\platform,*.sln",
+			"D:\\Code\\neogov\\platform,*.cs",
+			"D:\\Code\\neogov\\platform,*.csproj",
+			"D:\\Code\\neogov\\platform,*.cs",
+			"D:\\Code\\neogov\\platform,*.sql",
+			"D:\\Code\\neogov\\platform,*.js",
+			"D:\\Code\\neogov\\platform,*.cs",
+			"D:\\Code\\neogov\\platform,*.sln",
+			"D:\\Code\\neogov\\platform,*.sql,*.cs",
+			"D:\\Code\\neogov\\platform,*.sql",
+			"D:\\Code\\neogov\\platform,*.cs",
+			"D:\\Code\\neogov\\platform,*.sql",
+			"D:\\Code\\neogov\\platform,*.js, *.cshtml",
+			"D:\\Code\\neogov\\platform,*.config",
+			"D:\\Code\\neogov\\platform,*.js,*.cshtml",
+			"*.js,*.cshtml",
+			"*.cs",
+			"*.sql",
+			"*.cs,*.cshtml",
+			"D:\\Code\\neogov\\platform,*.cs,*.cshtml",
+			"D:\\Code\\neogov\\platform",
+			"D:\\Code\\neogov\\platform,*.csproj",
+			"D:\\Code\\neogov\\platform,*.js",
+			"D:\\Code\\neogov\\platform,*.cs",
+			"D:\\Code\\neogov\\platform\\src\\WebApp\\APIs,*.cs",
+			"D:\\Code\\neogov\\platform,*.cs",
+			"D:\\Code\\neogov\\platform,*.config",
+			"D:\\Code\\neogov\\platform,*.js, *.cshtml",
+			"D:\\Code\\neogov\\platform,*.js",
+			"D:\\Code\\neogov\\platform,*.js,*.cshtml",
+			"D:\\Code\\neogov\\platform,*.sql,*.cs",
+			"D:\\Code\\neogov\\platform,*.js",
+			"D:\\Code\\neogov\\platform,*.less",
+			"*.less",
+			"*.less, *.css",
+			"*.cs",
+			"*.js",
+			"",
+			"*.js",
+			"*.cs",
+			"*.sql,*.cs",
+			"*.js,*.cshtml,*.html, *.cs, *.sql",
+			"*.js,*.cshtml,*.html, *.cs",
+			"*.js,*.cshtml,*.html",
+			"*.cs",
+			"*.js,*.cshtml,*.html",
+			"*.js,*.cshtml",
+			"D:\\Code\\neogov\\platform\\src\\PerformModules\\Perform.EvaluationSetup.Core\\DomainViews\\Queries",
+			"D:\\Code\\neogov\\platform,*.cshtml",
+			"D:\\Code\\neogov\\platform,*.cs",
+			"D:\\Code\\neogov\\platform,*.js",
+			"D:\\Code\\neogov\\platform,*.cs",
+			"D:\\Code\\neogov\\platform,*.sql",
+			"D:\\Code\\neogov\\platform,*.js,*.cshtml,*.html",
+			"D:\\Code\\neogov\\platform,*.sql",
+			"D:\\Code\\neogov\\platform,*.js",
+			"D:\\Code\\neogov\\platform,*.jssql,*.cs",
+			"D:\\Code\\neogov\\platform,*.sql,*.cs",
+			"D:\\Code\\neogov\\platform,*.sql",
+			"D:\\Code\\neogov\\platform,*.cshtml",
+			"D:\\Code\\neogov\\platform,*.cs"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"BDD.Framework",
+			"AssignedToEmployee",
+			"UserID",
+			"EmployeeID",
+			"ufn_SecurityEmployeeAccess",
+			"GetEvaluationQuery",
+			"IsNullable",
+			"HangfireServerModule",
+			"//TODO",
+			"search",
+			"appendUrlQueryString",
+			"neogov-references",
+			"updateDeactivateActions",
+			"canDeactivateInAdvancedEdit",
+			"grid/security",
+			"p__linq__0",
+			"View360RatersSection",
+			"ViewAverageRatingCompetency",
+			"ReusableBootstrapDropdown",
+			"approverComments.js",
+			"prototype.js",
+			"AsSimpleView",
+			"User ID=bamboo;Password=d3j@vu!",
+			"SELECT",
+			"TaskTypeRaw",
+			"styleUrl",
+			"$scope.printPdf",
+			"Events.RefreshProcessActions",
+			"RefreshProcessActions",
+			"processActions._rules.canApprove",
+			"EmployeePosition",
+			"EmployeePositions",
+			"fn_GetEmployeeProfile",
+			"stp_RegenerateEmployeesSecurityProfile",
+			"RegenerateEmployeesSecurityProfile",
+			"fn_GetEmployeeProfile",
+			"fn_GetEmployeeProfileForManualUpdate",
+			"fn_GetEmployeeProfile",
+			"Employees_Delete",
+			"stp_RegenerateEmployeeSecurityProfile",
+			"stp_UpdateEmployeeSecurityProfile",
+			"stp_ReassignManager",
+			"ManagerID",
+			"xEmployee_ReportingToEmployees",
+			"@ManagerID",
+			"@UserID",
+			"ReportingToEmployeeID",
+			"ufn_CheckRecursion",
+			"Employee",
+			"xEmployee_ReportingToEmployees",
+			"fn_DepartmentAccess",
+			"BulkManagerReassigning",
+			"23516",
+			"PredefinedFields",
+			"_PredefinedFields",
+			"Platform_PredefinedFields",
+			"Evaluation/download",
+			"Neogov.Framework",
+			"bin\\Debug\\Neogov",
+			"bin\\Neogov",
+			"ServiceBase",
+			"Uservoice",
+			"neogov-references",
+			"bin\\Perform.Common",
+			"..\\.",
+			"..\\..\\..\\externalrefere",
+			"..\\..\\..\\..\\externa",
+			"..\\..\\..\\externalr",
+			"\\",
+			"'.	",
+			"\\",
+			"'.	",
+			"CloudObjectIntegrations",
+			"SyncEngine\\Neogov.NetSuite.SyncEngine",
+			"SyncEngine",
+			"..\\..\\..\\..\\externalreferences",
+			"baseline-20140829-6e885d480fad",
+			"alter table neogovtask",
+			"isActive",
+			".ActorEmployeeId",
+			"ActorEmployeeId",
+			"Perform.Common.Services.csproj",
+			"rating",
+			"NotImplementedException",
+			"currentDate",
+			"var Charts = ",
+			"var Charts =",
+			"LocalCharts",
+			"#dashboardSummaryContent",
+			"PePositionId",
+			"vw_PositionInfoByEmployee",
+			"EmployeeEvaluationApprovers",
+			"ClassSpecificationsOldReplica",
+			"e.Status",
+			"ActiveEvaluations",
+			"FilterBuilder",
+			"EmployerEncryptionDetails",
+			"class SafeProcedure",
+			"SafeProcedure",
+			"_queryContext",
+			"Positions",
+			"getEvaluationCounts",
+			"onlyActive",
+			"indexof",
+			"logError",
+			"logErrorUrl",
+			"LogJavaScriptError",
+			"fn_DepartmentAccess",
+			"push('",
+			"if (",
+			"evaluationName",
+			"immediat",
+			"immediateHierarchy",
+			"myDirectReports",
+			"calculateMaximumNumberOfVisibleDirectReportCards",
+			"EmployeeHierarchyLevels.DirectReports",
+			"DirectReport",
+			"DateTime2",
+			"(Type = Int32, IsNullable = false)",
+			"myTeam",
+			"[Route(\"{evaluationId:encryptedInt}/",
+			"unifi",
+			"enable",
+			"NeogovTasksInfo",
+			"stp_UpdateEnitytNameForTaskInfo",
+			"DROP PR",
+			"DROP PROC",
+			"IF  EXISTS "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"InheritBDD.xUnit",
+			"Neogov.NetSuite.SyncEngine",
+			"DomainModel.Program",
+			"Perform.Readonly.Core.Views",
+			"Resources",
+			"EmployerId",
+			"CurrentUser.HasAccess",
+			"EmployeeCanEditEvaluation",
+			"new ",
+			"Subquery",
+			"IPhoenixQuery",
+			"httpBaseInterceptor",
+			"\"pe.httpBaseInterceptor\"",
+			"addEllipsisToText",
+			"addEllipsisToCSV",
+			"task.type",
+			"step.type",
+			"workflow.SubmitRating(",
+			"6.1.3\\lib\\net45",
+			"<TargetFrameworkVersion>v4.5",
+			"spec.Express().MatchType",
+			"spec",
+			"Where(IDbSpecification",
+			"query, request",
+			"Adjusted.For",
+			"new EmployeeVisibleToUser",
+			"..\\..\\packages",
+			"externalreferences\\Autofac\\Autofac.Mvc5.3.1.0\\lib\\net45\\Autofac.Integration.Mvc.dll",
+			"Version=3.4.1",
+			"\"~/less\\1less\"",
+			"Id",
+			"configuration.UserSetting",
+			"EvaluationStatus.Canceled",
+			"#608021",
+			"#D04020",
+			"Autofac, Version=2.6.1.841",
+			"externalreferences\\Autofac\\2.6.4.841\\Autofac.dll",
+			"clock.Change",
+			"System.Web.Mvc, Version=3.0.0.0",
+			"GetEmployeeEvaluations",
+			"httpGetEnabled=\"false\"",
+			"net.pipe://localhost/corehr-services/",
+			"localhost/corehr-services",
+			"localhost/corehr-service",
+			":59240",
+			"ErrorMessage = ResClass.",
+			".CoreHr.",
+			"= @EmployerID",
+			"..\\lib",
+			"..\\packages",
+			"..\\</SolutionDir>",
+			"database",
+			"mig.engine",
+			"<PlatformTarget>AnyCPU</PlatformTarget>",
+			"bin\\Release",
+			"Unified.Tests.Console",
+			"create procedure",
+			"key=\"SMTPServer\" value=\"127.0.0.1\"",
+			"Unified.Infrastructure",
+			"Unified.Infrastructre",
+			"<MvcBuildViews>false</MvcBuildViews>",
+			"@model Contacts.Web",
+			"\"Contact\"",
+			"@model Contacts.Contact",
+			"Contacts.AllModel",
+			"Contacts.Models;",
+			"key.napomena_o_nabavnoj_prodajnoj",
+			"key.zaboravili_lozinku",
+			"key.isteklo_vrijeme_izmjene_lozinke",
+			"key.opis_klijenata_ponuda_racuna",
+			"key.opis_unosa_stavke",
+			"key.nije_pronadjen_racun",
+			"key.nije_pronadjen_klijent",
+			"\"ReceiptNew\"",
+			"\"ReceiptNewFromTender\"",
+			"key.opis_unosa_u_cijenik",
+			"key.niti_jedan_predlozak",
+			"key.pitanje_obrisi_cijenik",
+			"",
+			"Group",
+			"Product",
+			"\\1,\\2",
+			"DataFormatString = \"{0:#,0.00}\"",
+			"PrintCurr()",
+			".\\1",
+			"\\1.\\2",
+			"\\10",
+			"",
+			"\\1.\\2",
+			"\\0.\\1",
+			"\\1.\\1",
+			"Finance.Round",
+			"FinRound",
+			"\\'",
+			"\\\\",
+			"\\>",
+			"\\<",
+			"\\'",
+			"RebateModified",
+			"NettoModified",
+			"key.promijeni_prodajnu_cijenu_svima",
+			"key.info.adjust_prices.message",
+			"key.title.adjust_prices",
+			"mb_postavke_ispisa",
+			"da_li_zelite_izbrisati_nesto",
+			"\")</div>",
+			"</div>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 47.0
+	},
+	"input":
+	{
+		"height": 76.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 432.0
+	},
+	"output.find_results":
+	{
+		"height": 100.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "xunit-bdd.sublime-project",
+	"replace":
+	{
+		"height": 90.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"evaluationqu",
+				"platform\\src\\PerformModules\\Perform.Readonly.Infrastructure\\Queries\\Evaluation\\EvaluationQuery.cs"
+			],
+			[
+				"tasktyp",
+				"platform\\databases\\neogovpe\\03_views\\2000_tasks.vw_TaskTypes.sql"
+			],
+			[
+				"programtarg",
+				"platform\\src\\PerformModules\\Perform.Common.Core\\Enums\\ProgramTargetType.cs"
+			],
+			[
+				"entitytype",
+				"platform\\src\\PerformModules\\Perform.Common.Core\\Enums\\EntityIdType.cs"
+			],
+			[
+				"vwtask",
+				"platform\\databases\\neogovpe\\03_views\\2000_tasks.vw_TaskTypes.sql"
+			],
+			[
+				"ufnsec",
+				"platform\\databases\\neogovpe\\02_functions\\dbo.ufn_SecurityEmployeeAccess.UserDefinedFunction.sql"
+			],
+			[
+				"viewsql",
+				"platform\\databases\\neogovpe\\03_views\\dbo.Employers.View.sql"
+			],
+			[
+				"securityaccesql",
+				"platform\\databases\\neogovpe\\02_functions\\dbo.ufn_SecurityEmployeeAccess.UserDefinedFunction.sql"
+			],
+			[
+				"evaluationquery",
+				"platform\\src\\PerformModules\\Perform.Readonly.Infrastructure\\Queries\\Evaluation\\EvaluationQuery.cs"
+			],
+			[
+				"evaluationprocesscs",
+				"platform\\src\\PerformModules\\Perform.EvaluationRating.Core\\DomainModel\\Workflow\\EvaluationProcess.cs"
+			],
+			[
+				"evaluationworkflo",
+				"platform\\src\\PerformModules\\Perform.Readonly.Core\\Entities\\EvaluationWorkflow.cs"
+			],
+			[
+				"canedit",
+				"platform\\src\\PerformModules\\Perform.EvaluationSetup.Core\\DomainSpecifications\\Employee\\EmployeeCanEditEvaluation.cs"
+			],
+			[
+				"evaluationcontrolle",
+				"platform\\src\\WebApp\\APIs\\Evaluation\\Controllers\\EvaluationController.cs"
+			],
+			[
+				"employeesnextprograminfo",
+				"platform\\databases\\neogovpe\\02_functions\\dbo.EmployeesNextProgramInfo.UserDefinedFunction.sql"
+			],
+			[
+				"vwdirec",
+				"platform\\databases\\neogovpe\\03_views\\dbo.vw_DirectManager.View.sql"
+			],
+			[
+				"rulename",
+				"platform\\src\\PerformModules\\Perform.Common.Core\\RuleBuilders\\RuleName.cs"
+			],
+			[
+				"evaluaitnlistjs",
+				"platform\\src\\WebApp\\Content\\CompiledTypescript\\Areas\\Evaluation\\List\\Directives\\evaluationList.js"
+			],
+			[
+				"buildps",
+				"personal\\build.ps1"
+			],
+			[
+				"employeeevaluationselectfilter",
+				"platform\\databases\\neogovpe\\04_stored_procedures\\dbo.stp_EmployeeEvaluations_SelectFiltered.StoredProcedure.sql"
+			],
+			[
+				"platofrmwebconfig",
+				"platform\\src\\WebApp\\web.config"
+			],
+			[
+				"hnagfireser",
+				"platform\\src\\Scheduling.Api.Hangfire\\HangfireServerModule.cs"
+			],
+			[
+				"migconfig",
+				"platform\\mig.config"
+			],
+			[
+				"evaluationrule",
+				"platform\\src\\PerformModules\\Perform.Readonly.Infrastructure\\RuleBuilders\\EvaluationRuleBuilder.cs"
+			],
+			[
+				"apievalua",
+				"platform\\src\\WebApp\\scripts\\Areas\\FlamingoDashboard\\Endpoints\\ApiEvaluation.ts"
+			],
+			[
+				"employerrule",
+				"platform\\src\\PerformModules\\Perform.Readonly.Infrastructure\\RuleContexts\\EmployerRuleContext.cs"
+			],
+			[
+				"employeeupatesql",
+				"platform\\databases\\neogovpe\\04_stored_procedures\\dbo.Employees_Update.StoredProcedure.sql"
+			],
+			[
+				"employee_inser",
+				"platform\\databases\\neogovpe\\04_stored_procedures\\dbo.Employees_Insert.StoredProcedure.sql"
+			],
+			[
+				"employees_update",
+				"platform\\databases\\neogovpe\\04_stored_procedures\\dbo.Employees_Update.StoredProcedure.sql"
+			],
+			[
+				"ievaluationviewts",
+				"platform\\src\\WebApp\\scripts\\Areas\\FlamingoDashboard\\Models\\IEvaluationView.ts"
+			],
+			[
+				"getvisible",
+				"platform\\databases\\neogovpe\\04_stored_procedures\\dbo.stp_GetVisibleEmployees.StoredProcedure.sql"
+			],
+			[
+				"getdirectrepo",
+				"platform\\databases\\neogovpe\\02_functions\\dbo.fn_GetDirectReportEmployeeID.UserDefinedFunction.sql"
+			],
+			[
+				"webappconnection",
+				"platform\\src\\WebApp\\ConfigurationFiles\\ConnectionStrings.config"
+			],
+			[
+				"apisevaluationprocessconto",
+				"platform\\src\\WebApp\\APIs\\Evaluation\\Controllers\\Process\\EvaluationProcessController.cs"
+			],
+			[
+				"taskrule",
+				"platform\\src\\PerformModules\\Perform.Readonly.Infrastructure\\RuleBuilders\\TaskRuleBuilder.cs"
+			],
+			[
+				"statusdetai",
+				"platform\\src\\PerformModules\\Perform.Readonly.Infrastructure\\RuleBuilders\\EvaluationStatusDetailsRuleBuilder.cs"
+			],
+			[
+				"statusrule",
+				"platform\\src\\PerformModules\\Perform.Readonly.Infrastructure\\RuleBuilders\\EvaluationStatusRuleBuilder.cs"
+			],
+			[
+				"processrule",
+				"platform\\src\\PerformModules\\Perform.Readonly.Infrastructure\\RuleBuilders\\EvaluationProcessRuleBuilder.cs"
+			],
+			[
+				"employeeinsert",
+				"platform\\databases\\neogovpe\\04_stored_procedures\\dbo.Employees_Insert.StoredProcedure.sql"
+			],
+			[
+				"phoenixevaljs",
+				"platform\\src\\WebApp\\scripts\\Areas\\PhoenixEvaluation\\Layout\\Evaluation-Layout-Controller.js"
+			],
+			[
+				"activatede",
+				"platform\\src\\PerformModules\\Perform.Common.Core\\DomainEvents\\ProgramActivatedEvent.cs"
+			],
+			[
+				"getprofile",
+				"platform\\databases\\neogovpe\\02_functions\\dbo.fn_GetEmployeeProfile.UserDefinedFunction.sql"
+			],
+			[
+				"reassignmana",
+				"platform\\databases\\neogovpe\\04_stored_procedures\\dbo.stp_ReassignManager.sql"
+			],
+			[
+				"getemployeeprofi",
+				"platform\\databases\\neogovpe\\02_functions\\dbo.fn_GetEmployeeProfile.UserDefinedFunction.sql"
+			],
+			[
+				"webappwebconfig",
+				"platform\\src\\WebApp\\web.config"
+			],
+			[
+				"userssoupa",
+				"platform\\databases\\neogovpe\\04_stored_procedures\\dbo.UserSSO_Update.StoredProcedure.sql"
+			],
+			[
+				"usersupdate",
+				"platform\\databases\\neogovpe\\04_stored_procedures\\dbo.Users_Update.StoredProcedure.sql"
+			],
+			[
+				"getemployeeprofile",
+				"platform\\databases\\neogovpe\\02_functions\\dbo.fn_GetEmployeeProfile.UserDefinedFunction.sql"
+			],
+			[
+				"regener",
+				"platform\\databases\\neogovpe\\04_stored_procedures\\400.dbo.stp_RegenerateEmployeesSecurityProfile.sql"
+			],
+			[
+				"fn_getemployeeprofileformanualupdate",
+				"platform\\databases\\neogovpe\\02_functions\\dbo.fn_GetEmployeeProfileForManualUpdate.UserDefinedFunction.sql"
+			],
+			[
+				"users_update",
+				"platform\\databases\\neogovpe\\04_stored_procedures\\dbo.Users_Update.StoredProcedure.sql"
+			],
+			[
+				"stp_useractivationcomplete",
+				"platform\\databases\\neogovpe\\04_stored_procedures\\dbo.stp_UserActivationComplete.StoredProcedure.sql"
+			],
+			[
+				"getemployeeprofir",
+				"platform\\databases\\neogovpe\\02_functions\\dbo.fn_GetEmployeeProfile.UserDefinedFunction.sql"
+			],
+			[
+				"stp_userrole_insert_pe",
+				"platform\\databases\\neogovpe\\04_stored_procedures\\dbo.stp_UserRole_Insert_PE.StoredProcedure.sql"
+			],
+			[
+				"employees_insert",
+				"platform\\databases\\neogovpe\\04_stored_procedures\\dbo.Employees_Insert.StoredProcedure.sql"
+			],
+			[
+				"reassignman",
+				"platform\\databases\\neogovpe\\04_stored_procedures\\dbo.stp_ReassignManager.sql"
+			],
+			[
+				"checkrecu",
+				"platform\\databases\\neogovpe\\02_functions\\dbo.ufn_CheckRecursion.UserDefinedFunction.sql"
+			],
+			[
+				"anagersql",
+				"platform\\databases\\neogovpe\\04_stored_procedures\\dbo.stp_ReassignManager.sql"
+			],
+			[
+				"reassignmanagersql",
+				"platform\\databases\\neogovpe\\04_stored_procedures\\dbo.stp_ReassignManager.sql"
+			],
+			[
+				"stp_reassignmanager",
+				"platform\\databases\\neogovpe\\04_stored_procedures\\dbo.stp_ReassignManager.sql"
+			],
+			[
+				"signaturet",
+				"platform\\src\\PerformModules\\Perform.Common.Core\\Enums\\SignatureType.cs"
+			],
+			[
+				"steptype",
+				"platform\\src\\Neogov.PE.Entities\\Implementation\\StepType.cs"
+			],
+			[
+				"platformwebconfi",
+				"platform\\src\\WebApp\\web.config"
+			],
+			[
+				"customobjeintegratoin",
+				"platform\\src\\CustomObjectIntegrations.Tests\\CustomObjectIntegrations.Tests.csproj"
+			],
+			[
+				"customobjecsync",
+				"platform\\src\\Neogov.CustomObjects.Sync\\Neogov.CustomObjects.Sync.csproj"
+			],
+			[
+				"factorytes",
+				"platform\\src\\Neogov.EvaluationFactory.Tests\\Neogov.EvaluationFactory.Tests.csproj"
+			],
+			[
+				"filedsectionmig",
+				"platform\\src\\Neogov.FieldSectionMigrationUtility\\Neogov.FieldSectionMigrationUtility.csproj"
+			],
+			[
+				"customobjectinte",
+				"platform\\src\\CustomObjectIntegrations.Tests\\CustomObjectIntegrations.Tests.csproj"
+			],
+			[
+				"netsuitsyncen",
+				"platform\\src\\Neogov.NetSuite.SyncEngine\\Neogov.NetSuite.SyncEngine.csproj"
+			],
+			[
+				"customobjectsintegration",
+				"platform\\src\\Neogov.CustomObjects.Integrations\\Neogov.CustomObjects.Integrations.csproj"
+			],
+			[
+				"syncengine.csproj",
+				"platform\\src\\Neogov.NetSuite.SyncEngine\\Neogov.NetSuite.SyncEngine.csproj"
+			],
+			[
+				"fn_divisionaccess",
+				"platform\\databases\\neogovpe\\02_functions\\dbo.fn_DivisionAccess.UserDefinedFunction.sql"
+			],
+			[
+				"syncserviloadlo",
+				"platform\\src\\Neogov.SyncService\\Neogov.SyncService.LoadLogic\\Neogov.SyncService.LoadLogic.csproj"
+			],
+			[
+				"givenfullwork",
+				"platform\\src\\PerformModules\\Perform.EvaluationRating.Core.Test\\EvaluationWorkflow\\Given_full_workflow.cs"
+			],
+			[
+				"givenappro",
+				"platform\\src\\PerformModules\\Perform.EvaluationRating.Core.Test\\EvaluationWorkflow\\Given_approvers_and_acknowledgers.cs"
+			],
+			[
+				"stp_reports_employeestatusreport",
+				"platform/databases/neogovpe/04_stored_procedures/dbo.stp_Reports_EmployeeStatusReport_Detailed.StoredProcedure.sql"
+			],
+			[
+				"stp_reports_employeestatus_chart",
+				"platform/databases/neogovpe/04_stored_procedures/dbo.stp_Reports_EmployeeStatus_Chart.StoredProcedure.sql"
+			],
+			[
+				"vw_employeeevaluationstatus",
+				"platform/databases/neogovpe/03_views/dbo.vw_EmployeeEvaluationStatus.sql"
+			],
+			[
+				"platformdata000deletesql",
+				"platform/databases/neogovpe/03_views/0000-delete-unused-views.sql"
+			],
+			[
+				"apievaluationtaskcount",
+				"platform/src/WebApp/scripts/Areas/FlamingoDashboard/Endpoints/ApiEvaluationTaskCounts.ts"
+			],
+			[
+				"apievaluationtask",
+				"platform/src/WebApp/scripts/Areas/FlamingoDashboard/Endpoints/ApiEvaluationTask.ts"
+			],
+			[
+				"overduetaskli",
+				"platform/src/WebApp/scripts/Areas/FlamingoDashboard/Flyouts/OverdueTasks/FlamingoDashboard-overdueTasksList.ts"
+			],
+			[
+				"webappconnectionstring",
+				"platform/src/WebApp/ConfigurationFiles/connectionStrings.config"
+			],
+			[
+				"flamingorepository",
+				"platform/src/WebApp/Content/CompiledTypescript/Areas/FlamingoDashboard/Services/MyEvaluationsRepository.js"
+			],
+			[
+				"flamingorepositoryts",
+				"platform/src/WebApp/scripts/Areas/FlamingoDashboard/Services/MyDirectReportsRepository.ts"
+			],
+			[
+				"flamingorepositots",
+				"platform/src/WebApp/scripts/Areas/FlamingoDashboard/Services/MyEvaluationsRepository.ts"
+			],
+			[
+				"flamingorepositorts",
+				"platform/src/WebApp/scripts/Areas/FlamingoDashboard/Services/MyDirectReportsRepository.ts"
+			],
+			[
+				"flamingoreposito",
+				"platform/src/WebApp/scripts/Areas/FlamingoDashboard/Services/TaskCountsRepository.ts"
+			],
+			[
+				"mye",
+				"platform/src/WebApp/Content/CompiledTypescript/Areas/FlamingoDashboard/Services/MyEvaluationsRepository.js"
+			],
+			[
+				"myevaluation",
+				"platform/src/WebApp/Content/CompiledTypescript/Areas/FlamingoDashboard/Services/MyEvaluationsRepository.js"
+			],
+			[
+				"apievaluationtaskcoun",
+				"platform/src/WebApp/Content/CompiledTypescript/Areas/FlamingoDashboard/Endpoints/ApiEvaluationTaskCounts.js"
+			],
+			[
+				"dsevaluationcon",
+				"platform/src/PerformModules/Perform.EvaluationSetup.Core/DomainService/DsEvaluationContentManager.cs"
+			],
+			[
+				"filterbui",
+				"platform/src/WebApp/Content/CompiledTypescript/Areas/FlamingoDashboard/Services/ActiveEvaluationsFilterBuilder.js"
+			],
+			[
+				"activeevalfilt",
+				"platform/src/WebApp/scripts/Areas/FlamingoDashboard/Services/ActiveEvaluationsFilterBuilder.ts"
+			],
+			[
+				"evaluationindexjs",
+				"platform/src/WebApp/scripts/Areas/Evaluation/Evaluation/index.js"
+			],
+			[
+				"fndepar",
+				"platform/databases/neogovpe/02_functions/dbo.fn_DepartmentAccess.UserDefinedFunction.sql"
+			],
+			[
+				"processrulebui",
+				"platform/src/PerformModules/Perform.Readonly.Infrastructure/RuleBuilders/EvaluationProcessRuleBuilder.cs"
+			],
+			[
+				"canview",
+				"platform/src/PerformModules/Perform.EvaluationSetup.Core/DomainSpecifications/Employee/EmployeeCanViewScore.cs"
+			],
+			[
+				"rulenames",
+				"platform/src/PerformModules/Perform.Common.Core/RuleBuilders/RuleName.cs"
+			],
+			[
+				"activeeval",
+				"platform/src/WebApp/scripts/Areas/FlamingoDashboard/Models/ActiveEvaluationsFilter.ts"
+			],
+			[
+				"dashbgridreq",
+				"platform/src/WebApp/scripts/Areas/FlamingoDashboard/Endpoints/GridRequest.ts"
+			],
+			[
+				"evaluationcontroller",
+				"platform/src/WebApp/APIs/Evaluation/Controllers/EvaluationController.cs"
+			],
+			[
+				"evaluationview",
+				"platform/src/PerformModules/Perform.Readonly.Core/Views/EvaluationView.cs"
+			],
+			[
+				"evaluationviewts",
+				"platform/src/WebApp/scripts/Areas/FlamingoDashboard/Models/IEvaluationView.ts"
+			],
+			[
+				"mydirectep",
+				"platform/src/WebApp/scripts/Areas/FlamingoDashboard/Services/MyDirectReportsRepository.ts"
+			],
+			[
+				"employeedashboardview",
+				"platform/src/WebApp/scripts/Areas/FlamingoDashboard/Models/IEmployeeDashboardView.ts"
+			],
+			[
+				"getemployeeallhier",
+				"platform/databases/neogovpe/02_functions/dbo.fn_GetEmployeeAllHierarchialManager.UserDefinedFunction.sql"
+			],
+			[
+				"apisevaluationconto",
+				"platform/src/WebApp/APIs/Evaluation/Controllers/EvaluationController.cs"
+			],
+			[
+				"contractres",
+				"platform/src/WebApp/APIs/Helpers/ContractResolverWithDataTransform.cs"
+			],
+			[
+				"activeevalrepo",
+				"platform/src/WebApp/scripts/Areas/FlamingoDashboard/Services/ActiveEvaluationsRepository.ts"
+			],
+			[
+				"activeevalfiltbui",
+				"platform/src/WebApp/scripts/Areas/FlamingoDashboard/Services/ActiveEvaluationsFilterBuilder.ts"
+			],
+			[
+				"myevaluationsfilte",
+				"platform/src/WebApp/Content/CompiledTypescript/Areas/FlamingoDashboard/Services/ActiveEvaluationsFilterBuilder.js"
+			],
+			[
+				"positionupdate",
+				"platform/databases/neogovpe/04_stored_procedures/dbo.Positions_Update.StoredProcedure.sql"
+			],
+			[
+				"neogovpepositioninsert",
+				"platform/databases/neogovpe/04_stored_procedures/dbo.Positions_Insert.StoredProcedure.sql"
+			],
+			[
+				"evaluationtaskcon",
+				"platform/src/WebApp/APIs/Evaluation/Controllers/EvaluationTaskController.cs"
+			],
+			[
+				"webappappset",
+				"platform/src/WebApp/ConfigurationFiles/appSettings.config"
+			],
+			[
+				"entityidtype",
+				"platform/src/PerformModules/Perform.Common.Core/Enums/EntityIdType.cs"
+			],
+			[
+				"updatetaskinfo",
+				"platform/databases/neogovpe/04_stored_procedures/dbo.stp_UpdateEnitytNameForTaskInfo.StoredProcedure.sql"
+			],
+			[
+				"stp_writetaskmetadata",
+				"platform/databases/neogovpe/04_stored_procedures/dbo.stp_WriteTaskMetadataForEvaluations.StoredProcedure.sql"
+			],
+			[
+				"enttyidty",
+				"platform/src/PerformModules/Perform.Common.Core/Enums/EntityIdType.cs"
+			],
+			[
+				"taskviewts",
+				"platform/src/WebApp/scripts/Areas/FlamingoDashboard/Models/ITaskView.ts"
+			],
+			[
+				"cancelevaluation",
+				"platform/databases/neogovpe/04_stored_procedures/200.dbo.stp_CancelEvaluationAndTasks.sql"
+			],
+			[
+				"neogovpedelete",
+				"platform/databases/neogovpe/04_stored_procedures/000-delete-unused-procedures.sql"
+			],
+			[
+				"neogovpedropunuse",
+				"platform/databases/neogovpe/01_scripts/0137_PF-12396/0007-drop-unused-stored-procedures.sql"
+			],
+			[
+				"neogovtaskinfore",
+				"platform/databases/neogovpe/04_stored_procedures/dbo.stp_NeogovTasksInfo_RefreshAll.StoredProcedure.sql"
+			],
+			[
+				"neogovtaskinforefre",
+				"platform/databases/neogovpe/04_stored_procedures/dbo.stp_NeogovTasksInfo_Refresh.StoredProcedure.sql"
+			],
+			[
+				"employeedetvie",
+				"platform/src/PerformModules/Perform.Readonly.Core/Views/EmployeeDetailedView.cs"
+			],
+			[
+				"neogovtaskinfosql",
+				"platform/databases/neogovpe/04_stored_procedures/dbo.stp_NeogovTasksInfo_Refresh.StoredProcedure.sql"
+			],
+			[
+				"refreshal",
+				"platform/databases/neogovpe/04_stored_procedures/dbo.stp_NeogovTasksInfo_RefreshAll.StoredProcedure.sql"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 1250.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\Code\\neogov\\personal\\neogov.platform.sublime-project"
+			],
+			[
+				"pneo",
+				"D:\\Code\\neogov\\personal\\neogov.sublime-project"
+			],
+			[
+				"neogoap",
+				"D:\\Code\\neogov\\personal\\neogov.all.sublime-project"
+			],
+			[
+				"neogovall",
+				"D:\\Code\\neogov\\personal\\neogov.all.sublime-project"
+			],
+			[
+				"neogo",
+				"D:\\Code\\neogov\\personal\\neogov.all.sublime-project"
+			],
+			[
+				"all",
+				"D:\\Code\\neogov\\personal\\neogov.all.sublime-project"
+			],
+			[
+				"neogov",
+				"D:\\Code\\neogov\\personal\\neogov.sublime-project"
+			],
+			[
+				"pri",
+				"D:\\DotNet\\_Private\\private.sublime-project"
+			],
+			[
+				"pl",
+				"/D/Code/neogov/personal/neogov.platform.sublime-project"
+			],
+			[
+				"neogovo",
+				"/D/Code/neogov/personal/neogov.sublime-project"
+			],
+			[
+				"booking",
+				"/D/Code/booking/Booking.sublime-project"
+			],
+			[
+				"jsno",
+				"/D/Code/js-node-visualstudio/js-node-visualstudio.sublime-project"
+			],
+			[
+				"priv",
+				"/D/DotNet/_Private/private.sublime-project"
+			],
+			[
+				"priva",
+				"/D/DotNet/_Private/private.sublime-project"
+			],
+			[
+				"offerion",
+				"/D/Code/offerion/Offerion.sublime-project"
+			],
+			[
+				"offer",
+				"/D/Code/offerion/BookingIt.MoBill.sublime-project"
+			],
+			[
+				"private",
+				"/D/DotNet/_Private/private.sublime-project"
+			],
+			[
+				"core",
+				"/D/Code/neogov/personal/neogov.corehr.sublime-project"
+			],
+			[
+				"offe",
+				"/D/Code/offerion/Offerion.sublime-project"
+			],
+			[
+				"neo",
+				"/D/Code/neogov/personal/neogov.sublime-project"
+			],
+			[
+				"jsvi",
+				"/D/Code/js-node-visualstudio/js-node-visualstudio.sublime-project"
+			],
+			[
+				"lib",
+				"/D/Code/cs-lib-security-framework/cs-lib-security-framework.sublime-project"
+			],
+			[
+				"cstes",
+				"/D/Code/cs-test-mvc/cs-test-mvc.sublime-project"
+			],
+			[
+				"mobill",
+				"/D/Code/Inetpub/mobill-118-refactor-cijenika/BookingIt.MoBill.sublime-project"
+			],
+			[
+				"platform",
+				"/D/Code/neogov/personal/neogov.platform.sublime-project"
+			],
+			[
+				"angula",
+				"/D/Code/angular-test/angular-test.sublime-project"
+			],
+			[
+				"noop",
+				"/D/Code/cs-example-nopcommerce/nopcommerce.sublime-project"
+			],
+			[
+				"anug",
+				"/D/Code/angular-test/angular-test.sublime-project"
+			],
+			[
+				"coreh",
+				"/D/Code/neogov/personal/neogov.corehr.sublime-project"
+			],
+			[
+				"angu",
+				"/D/Code/angular-test/angular-test.sublime-project"
+			],
+			[
+				"mo",
+				"/D/Code/Inetpub/wwwroot_mobill/BookingIt.MoBill.sublime-project"
+			],
+			[
+				"s",
+				"/D/Code/neogov_on_stash/neogov_on_stash.sublime-project"
+			],
+			[
+				"stasj",
+				"/D/Code/neogov_on_stash/neogov_on_stash.sublime-project"
+			],
+			[
+				"mobi",
+				"/D/old_c/Inetpub/wwwroot_mobill/BookingIt.MoBill.sublime-project"
+			],
+			[
+				"packa",
+				"/D/UserData/SublimeText2.0/Data/Packages/packages.sublime-project"
+			],
+			[
+				"radna",
+				"/C/inetpub/wwwroot/Radna/Booking.sublime-project"
+			],
+			[
+				"ww temp",
+				"/C/inetpub/wwwroot_TEMP/mobill_production/MoBill.Prod.sublime-project"
+			],
+			[
+				"ra",
+				"/C/inetpub/wwwroot/Radna/Booking.sublime-project"
+			],
+			[
+				"mobii",
+				"/C/inetpub/wwwroot_TEMP/mobill_production/MoBill.Prod.sublime-project"
+			],
+			[
+				"ursli",
+				"/D/DotNet/ODesk/CodeForNewDesign/Urslit.sublime-project"
+			],
+			[
+				"pac",
+				"/D/Dropbox/Private/SublimeText2.0/Data/Packages/packages.sublime-project"
+			],
+			[
+				"odes",
+				"/D/DotNet/ODesk/CodeForNewDesign/Urslit.sublime-project"
+			],
+			[
+				"pa",
+				"/D/Dropbox/Private/SublimeText2.0/Data/Packages/packages.sublime-project"
+			],
+			[
+				"rad",
+				"/C/inetpub/wwwroot/Radna/Booking.sublime-project"
+			]
+		],
+		"width": 950.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 990.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

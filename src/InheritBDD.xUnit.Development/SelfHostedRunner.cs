@@ -1,9 +1,9 @@
 ﻿using System.Reflection;
-using BDD.Framework;
+using InheritBDD.xUnit;
 using Xunit;
 using Xunit.Sdk;
 
-namespace BDD.Framework
+namespace InheritBDD.xUnit
 {
     public static class SelfHostedRunner
     {
