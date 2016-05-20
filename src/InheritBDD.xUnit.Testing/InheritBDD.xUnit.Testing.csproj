@@ -75,7 +75,7 @@
       <Project>{EFC3F529-3686-416B-9C67-36EC914C776A}</Project>
       <Name>xunit.runner.utility.desktop</Name>
     </ProjectReference>
-    <ProjectReference Include="..\InheritBDD.xUnit\InheritBDD.xUnit.csproj">
+    <ProjectReference Include="..\InheritBDD.xUnit.Development\InheritBDD.xUnit.Development.csproj">
       <Project>{6a16e6ab-1e10-4ed3-bfc2-13ae6bf2cf79}</Project>
       <Name>InheritBDD.xUnit</Name>
     </ProjectReference>

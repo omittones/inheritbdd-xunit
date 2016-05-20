@@ -63,28 +63,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\InheritBDD.xUnit\ConsoleOutputVisitor.cs">
+    <Compile Include="..\InheritBDD.xUnit.Development\ConsoleOutputVisitor.cs">
       <Link>ConsoleOutputVisitor.cs</Link>
     </Compile>
-    <Compile Include="..\InheritBDD.xUnit\CustomDiscoverer.cs">
+    <Compile Include="..\InheritBDD.xUnit.Development\CustomDiscoverer.cs">
       <Link>CustomDiscoverer.cs</Link>
     </Compile>
-    <Compile Include="..\InheritBDD.xUnit\CustomExecutor.cs">
+    <Compile Include="..\InheritBDD.xUnit.Development\CustomExecutor.cs">
       <Link>CustomExecutor.cs</Link>
     </Compile>
-    <Compile Include="..\InheritBDD.xUnit\CustomFactDiscoverer.cs">
+    <Compile Include="..\InheritBDD.xUnit.Development\CustomFactDiscoverer.cs">
       <Link>CustomFactDiscoverer.cs</Link>
     </Compile>
-    <Compile Include="..\InheritBDD.xUnit\CustomFramework.cs">
+    <Compile Include="..\InheritBDD.xUnit.Development\CustomFramework.cs">
       <Link>CustomFramework.cs</Link>
     </Compile>
-    <Compile Include="..\InheritBDD.xUnit\ExtendedDiscoverer.cs">
+    <Compile Include="..\InheritBDD.xUnit.Development\ExtendedDiscoverer.cs">
       <Link>ExtendedDiscoverer.cs</Link>
     </Compile>
-    <Compile Include="..\InheritBDD.xUnit\NullOptions.cs">
+    <Compile Include="..\InheritBDD.xUnit.Development\NullOptions.cs">
       <Link>NullOptions.cs</Link>
     </Compile>
-    <Compile Include="..\InheritBDD.xUnit\SelfHostedRunner.cs">
+    <Compile Include="..\InheritBDD.xUnit.Development\SelfHostedRunner.cs">
       <Link>SelfHostedRunner.cs</Link>
     </Compile>
     <Compile Include="Assembly.cs" />

@@ -1,5 +1,4 @@
-﻿using InheritBDD.xUnit;
-using Xunit;
+﻿using Xunit;
 
 [assembly: TestFramework("InheritBDD.xUnit.CustomFramework", "InheritBDD.xUnit")]
 
