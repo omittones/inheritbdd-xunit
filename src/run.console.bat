@@ -1,0 +1,1 @@
+.\InheritBDD.xUnit.Testing\bin\Debug\InheritBDD.xUnit.Testing.exe
