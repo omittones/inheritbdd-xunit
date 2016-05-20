@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("InheritBDD.xUnit")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Framework built on top of xUnit to allow writing inheritance based BDD style tests.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("InheritBDD.xUnit")]

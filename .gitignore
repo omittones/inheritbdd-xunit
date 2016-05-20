@@ -22,4 +22,5 @@ Index.dat
 Storage.dat
 
 !libs/Microsoft.VisualStudio.TestPlatform.ObjectModel/**
+!tools/nuget.exe
 *.sublime-workspace

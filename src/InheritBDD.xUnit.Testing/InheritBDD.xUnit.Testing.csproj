@@ -78,7 +78,7 @@
     </ProjectReference>
     <ProjectReference Include="..\InheritBDD.xUnit.Development\InheritBDD.xUnit.Development.csproj">
       <Project>{6a16e6ab-1e10-4ed3-bfc2-13ae6bf2cf79}</Project>
-      <Name>InheritBDD.xUnit</Name>
+      <Name>InheritBDD.xUnit.Development</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
